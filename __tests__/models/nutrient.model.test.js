@@ -1,25 +1,26 @@
 /** @flow */
 
-import Nutrient from '../src/nutrient.model';
-import BMR from '../src/bmr.model';
-import Calories from '../src/calorie.model';
+import { Nutrient, BMR, Calories } from '../../src/models';
 
-const bmr = new BMR(74, 215, 32, 'm');
-const calories = new Calories(1997, -500);
+const PERSONAL_DETAILS = { height: 187.96, weight: 97.72, age: 32, sex: 'm' };
+const BMR_MALE = new BMR(PERSONAL_DETAILS);
+
+const CALORIES = new Calories({ bmr: 1997, adjustment: -500 });
 
 describe('Nutrient model', () => {
   it('initializes', () => {
-    const macros = new Nutrient(bmr, calories);
+    const macros = new Nutrient(BMR_MALE, CALORIES);
     expect(macros).toBeDefined();
   });
 
   it('calculate protein range', () => {
-    const macros = new Nutrient(bmr, calories);
-    expect(macros.protein).toEqual([172, 215]);
+    const macros = new Nutrient(BMR_MALE, CALORIES);
+    expect(macros.protein[0]).toBeCloseTo(172, 1);
+    expect(macros.protein[1]).toBeCloseTo(215, 1);
   });
 
   it('calculate carbohydrate load', () => {
-    const macros = new Nutrient(bmr, calories);
+    const macros = new Nutrient(BMR_MALE, CALORIES);
     expect(macros.carbohydrate.base).toBeCloseTo(107.5, 0);
     expect(macros.carbohydrate.light).toBeCloseTo(215, 0);
     expect(macros.carbohydrate.medium).toBeCloseTo(322.5, 0);
@@ -27,7 +28,7 @@ describe('Nutrient model', () => {
   });
 
   it('calculate fat load', () => {
-    const macros = new Nutrient(bmr, calories);
+    const macros = new Nutrient(BMR_MALE, CALORIES);
     expect(macros.fat.base).toBeCloseTo(86.4, 0);
     expect(macros.fat.light).toBeCloseTo(77.5, 0);
     expect(macros.fat.medium).toBeCloseTo(68.5, 0);
