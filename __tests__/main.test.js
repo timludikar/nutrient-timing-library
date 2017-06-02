@@ -1,6 +1,6 @@
 /** @flow */
 
-import { createUser, generateBMR } from '../src/main';
+import { createUser } from '../src/main';
 import { Profile } from '../src/models';
 
 describe('library interface', () => {
@@ -15,8 +15,7 @@ describe('library interface', () => {
     user.weight = 97.72;
     user.age = 32;
     user.setMale();
-
-    const bmr = generateBMR(user);
-    expect(bmr.value).toBeCloseTo(1997, 0);
+    user.calculate();
+    expect(user.bmr.value).toBeCloseTo(1997, 0);
   });
 });

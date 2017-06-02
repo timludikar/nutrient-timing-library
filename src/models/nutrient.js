@@ -7,15 +7,21 @@ import type BMR from './bmr';
 const PROTEIN_RANGE = [0.8, 1];
 const CARB_RANGE = [0.5, 1, 1.5, 2];
 
+type initNutrient = {
+  bmr: BMR,
+  calories: Calories
+};
+
 export default class Nutrient {
   protein: number[];
   carbohydrate: Calorie;
   fat: Calorie;
 
-  constructor(bmr: BMR, calories: Calories) {
-    this.calculateProtein(bmr.weight * 2.2);
-    this.calculateCarbs(bmr.weight * 2.2);
-    this.calculateFats(calories);
+  constructor(init: initNutrient): Nutrient {
+    this.calculateProtein(init.bmr.weight * 2.2);
+    this.calculateCarbs(init.bmr.weight * 2.2);
+    this.calculateFats(init.calories);
+    return this;
   }
 
   calculateProtein(weight: number) {

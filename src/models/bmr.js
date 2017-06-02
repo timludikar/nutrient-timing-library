@@ -29,11 +29,12 @@ export default class BMR implements IBmr {
   age: number;
   sex: string;
 
-  constructor(init: BMRInit) {
+  constructor(init: BMRInit): BMR {
     this.height = init.height;
     this.weight = init.weight;
     this.age = init.age;
     this.sex = init.sex;
+    return this;
   }
 
   update(update: BMRUpdate): BMR {
