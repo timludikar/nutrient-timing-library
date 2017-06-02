@@ -41,8 +41,13 @@ describe('Calorie model', () => {
     expect(calorie2.value.heavy).toBeCloseTo(3.725);
   });
 
-  it('can iterate over values', () => {
+  it('can provide all values', () => {
     const calorie = new Calories({ bmr: 2000 });
-    expect([...calorie.getValues()].length).toEqual(4);
+    expect([...calorie.values()].length).toEqual(4);
+  });
+
+  it('can provide all keys', () => {
+    const calorie = new Calories({ bmr: 2000 });
+    expect([...calorie.keys()].length).toEqual(4);
   });
 });

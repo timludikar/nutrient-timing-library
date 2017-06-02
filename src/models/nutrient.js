@@ -23,19 +23,19 @@ export default class Nutrient {
   }
 
   calculateCarbs(weight: number) {
-    const result: Calorie = {
+    this.carbohydrate = {
       base: weight * CARB_RANGE[0],
       light: weight * CARB_RANGE[1],
       medium: weight * CARB_RANGE[2],
       heavy: weight * CARB_RANGE[3],
     };
-    this.carbohydrate = result;
   }
 
   calculateFats(calories: Calories) {
-    const result = ['base', 'light', 'medium', 'heavy'].map((load) =>
-      (calories.value[load] - (this.carbohydrate[load] + this.protein[0]) * 4) / 9,
-    );
+    const result: Array<number> =
+      calories.keys().map((key) =>
+        (calories.value[key] - (this.carbohydrate[key] + this.protein[0]) * 4) / 9);
+
     this.fat = {
       base: result[0],
       light: result[1],
