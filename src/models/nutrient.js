@@ -1,7 +1,7 @@
 /** @flow */
 /* eslint no-mixed-operators: ["error", {"groups": [["&", "|", "^", "~", "<<", ">>", ">>>"], ["&&", "||"]]}] */
 
-import type Calories, { Calorie } from './calorie';
+import Calories from './calorie';
 import type BMR from './bmr';
 
 const PROTEIN_RANGE = [0.8, 1];
@@ -14,8 +14,8 @@ type initNutrient = {
 
 export default class Nutrient {
   protein: number[];
-  carbohydrate: Calorie;
-  fat: Calorie;
+  carbohydrate: Calories;
+  fat: Calories;
 
   constructor(init: initNutrient): Nutrient {
     this.calculateProtein(init.bmr.weight * 2.2);
@@ -29,24 +29,22 @@ export default class Nutrient {
   }
 
   calculateCarbs(weight: number) {
-    this.carbohydrate = {
-      base: weight * CARB_RANGE[0],
-      light: weight * CARB_RANGE[1],
-      medium: weight * CARB_RANGE[2],
-      heavy: weight * CARB_RANGE[3],
-    };
+    const base = weight * CARB_RANGE[0];
+    const light = weight * CARB_RANGE[1];
+    const medium = weight * CARB_RANGE[2];
+    const heavy = weight * CARB_RANGE[3];
+    this.carbohydrate = new Calories(base, light, medium, heavy);
   }
 
   calculateFats(calories: Calories) {
-    const result: Array<number> =
-      calories.keys().map((key) =>
-        (calories.value[key] - (this.carbohydrate[key] + this.protein[0]) * 4) / 9);
+    const result: Array<any> =
+      calories.keys().map((key) => {
+        const output = [];
+        output.push(key);
+        output.push((calories.get(key) - (this.carbohydrate.get(key) + this.protein[0]) * 4) / 9);
+        return output;
+      });
 
-    this.fat = {
-      base: result[0],
-      light: result[1],
-      medium: result[2],
-      heavy: result[3],
-    };
+    this.fat = Calories.fromArray(result);
   }
 }

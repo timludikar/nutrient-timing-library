@@ -46,9 +46,7 @@ export default class Profile {
       sex: this.sex,
     });
 
-    const calories = new Calories({
-      bmr: bmr.value,
-    });
+    const calories = new Calories().calculate(bmr.value);
 
     const macros = new Nutrient({ bmr, calories });
 

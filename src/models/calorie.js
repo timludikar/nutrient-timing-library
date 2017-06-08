@@ -7,53 +7,90 @@ const LIGHT_FACTOR = 1.375;
 const MEDIUM_FACTOR = 1.55;
 const HEAVY_FACTOR = 1.725;
 
-type initCalories = {
-  bmr : number,
-  adjustment ?: number
-}
+type calorie = number;
 
-type updateCalories = {
-  bmr ?: number,
-  adjustment ?: number
-}
+class Volume {
+  base: calorie;
+  light: calorie;
+  medium: calorie;
+  heavy: calorie;
 
-export type Calorie = {
-  [string]: number,
-  base: number,
-  light: number,
-  medium: number,
-  heavy: number
-};
-
-export default class Calories {
-  bmr: number;
-  adjustment: number;
-  value: Calorie;
-
-  constructor(init: initCalories) {
-    this.adjustment = init.adjustment || 0;
-    this.bmr = init.bmr || 0;
-
-    const base = (BASE_FACTOR * init.bmr) + this.adjustment;
-    const light = (LIGHT_FACTOR * init.bmr) + this.adjustment;
-    const medium = (MEDIUM_FACTOR * init.bmr) + this.adjustment;
-    const heavy = (HEAVY_FACTOR * init.bmr) + this.adjustment;
-
-    this.value = { base, light, medium, heavy };
+  constructor(base ?: calorie, light ?: calorie, medium ?: calorie, heavy ?: calorie) {
+    this.base = base || 0;
+    this.light = light || 0;
+    this.medium = medium || 0;
+    this.heavy = heavy || 0;
   }
 
-  update(update: updateCalories): Calories {
-    return new Calories({
-      bmr: update.bmr || this.bmr,
-      adjustment: update.adjustment || this.adjustment,
+  static fromObject(obj): * {
+    return new Volume(obj.base, obj.light, obj.medium, obj.heavy);
+  }
+
+  static fromArray(input: Array<any>): * {
+    const result = {};
+    input.forEach((i) => {
+      result[i[0]] = i[1];
     });
+    return Volume.fromObject(result);
+  }
+
+  get(value: string): number {
+    switch (value) {
+      case 'base':
+        return this.base;
+      case 'light':
+        return this.light;
+      case 'medium':
+        return this.medium;
+      case 'heavy':
+        return this.heavy;
+      default:
+        return 0;
+    }
+  }
+
+  toArray(): Array<any> {
+    return Object.values(this);
   }
 
   keys(): Array<string> {
-    return Object.keys(this.value);
+    return Object.keys(this);
   }
 
   values(): Array<any> {
-    return Object.values(this.value);
+    return Object.values(this);
+  }
+
+  entries(): Array<any> {
+    return Object.entries(this);
   }
 }
+
+class Calories extends Volume {
+  calculate(bmr: number): Calories {
+    this.base = (BASE_FACTOR * bmr);
+    this.light = (LIGHT_FACTOR * bmr);
+    this.medium = (MEDIUM_FACTOR * bmr);
+    this.heavy = (HEAVY_FACTOR * bmr);
+    return this;
+  }
+
+  adjustment(factor: number): Calories {
+    this.base = this.base + factor;
+    this.light = this.light + factor;
+    this.medium = this.medium + factor;
+    this.heavy = this.heavy + factor;
+    return this;
+  }
+
+  update(base ?: calorie, light ?: calorie, medium ?: calorie, heavy ?: calorie): Calories {
+    const newBase = base || this.base;
+    const newLight = light || this.light;
+    const newMedium = medium || this.medium;
+    const newHeavy = heavy || this.heavy;
+    return new Calories(newBase, newLight, newMedium, newHeavy);
+  }
+}
+
+
+export default Calories;

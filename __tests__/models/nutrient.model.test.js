@@ -5,7 +5,7 @@ import { Nutrient, BMR, Calories } from '../../src/models';
 const PERSONAL_DETAILS = { height: 187.96, weight: 97.72, age: 32, sex: 'm' };
 const BMR_MALE = new BMR(PERSONAL_DETAILS);
 
-const CALORIES = new Calories({ bmr: 1997, adjustment: -500 });
+const CALORIES = new Calories().calculate(1997).adjustment(-500);
 
 describe('Nutrient model', () => {
   it('initializes', () => {
