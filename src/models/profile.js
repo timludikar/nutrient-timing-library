@@ -1,6 +1,6 @@
 /** @flow */
 
-import BMR from './bmr';
+import BMR from '../services/bmr';
 import Calories from './calorie';
 import Nutrient from './nutrient';
 
@@ -14,7 +14,7 @@ export default class Profile {
   weight: number;
   sex: string;
   age: number;
-  bmr: BMR;
+  bmr: number;
   calories: Calories;
   macros: Nutrient;
 
@@ -39,16 +39,16 @@ export default class Profile {
   }
 
   calculate() {
-    const bmr = new BMR({
+    const bmr = BMR({
       height: this.height,
       weight: this.weight,
       age: this.age,
       sex: this.sex,
     });
 
-    const calories = new Calories().calculate(bmr.value);
+    const calories = new Calories().calculate(bmr);
 
-    const macros = new Nutrient({ bmr, calories });
+    const macros = new Nutrient({ bmr: this.bmr, weight: this.weight * 2.2, calories });
 
     this.bmr = bmr;
     this.calories = calories;

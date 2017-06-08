@@ -16,6 +16,6 @@ describe('library interface', () => {
     user.age = 32;
     user.setMale();
     user.calculate();
-    expect(user.bmr.value).toBeCloseTo(1997, 0);
+    expect(user.bmr).toBeCloseTo(1997, 0);
   });
 });

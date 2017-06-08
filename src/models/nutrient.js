@@ -2,13 +2,13 @@
 /* eslint no-mixed-operators: ["error", {"groups": [["&", "|", "^", "~", "<<", ">>", ">>>"], ["&&", "||"]]}] */
 
 import Calories from './calorie';
-import type BMR from './bmr';
 
 const PROTEIN_RANGE = [0.8, 1];
 const CARB_RANGE = [0.5, 1, 1.5, 2];
 
 type initNutrient = {
-  bmr: BMR,
+  bmr: number,
+  weight: number,
   calories: Calories
 };
 
@@ -18,8 +18,8 @@ export default class Nutrient {
   fat: Calories;
 
   constructor(init: initNutrient): Nutrient {
-    this.calculateProtein(init.bmr.weight * 2.2);
-    this.calculateCarbs(init.bmr.weight * 2.2);
+    this.calculateProtein(init.weight * 2.2);
+    this.calculateCarbs(init.weight * 2.2);
     this.calculateFats(init.calories);
     return this;
   }
