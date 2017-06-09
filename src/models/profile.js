@@ -40,7 +40,7 @@ export default class Profile {
   }
 
   calculate() {
-    const bmr = BMR({
+    const bmr = BMR.calculate({
       height: this.height,
       weight: this.weight,
       age: this.age,

@@ -41,6 +41,22 @@ describe('Calorie model', () => {
     expect(calorie2.heavy).toBeCloseTo(3450);
   });
 
+  it('can get', () => {
+    const calorie = new Calories().calculate(2000);
+
+    expect(calorie.get('base')).toBeCloseTo(2400, 1);
+    expect(calorie.get('light')).toBeCloseTo(2750, 1);
+    expect(calorie.get('medium')).toBeCloseTo(3100, 1);
+    expect(calorie.get('heavy')).toBeCloseTo(3450, 1);
+    expect(calorie.get('t')).toEqual(0);
+  });
+
+  it('can export an array', () => {
+    const calorie = new Calories().calculate(2000).toArray();
+    expect(calorie.length).toEqual(4);
+    expect(calorie[0].length).toEqual(2);
+  });
+
   it('can provide all values', () => {
     const calorie = new Calories();
     expect([...calorie.calculate(2000).values()].length).toEqual(4);
@@ -49,5 +65,11 @@ describe('Calorie model', () => {
   it('can provide all keys', () => {
     const calorie = new Calories();
     expect([...calorie.keys()].length).toEqual(4);
+  });
+
+  it('can export entries', () => {
+    const calorie = new Calories().entries();
+    expect(calorie.length).toEqual(4);
+    expect(calorie[0].length).toEqual(2);
   });
 });

@@ -23,7 +23,7 @@ export class Volume {
   }
 
   static fromObject(obj): * {
-    return new Volume(obj.base, obj.light, obj.medium, obj.heavy);
+    return new this(obj.base, obj.light, obj.medium, obj.heavy);
   }
 
   static fromArray(input: Array<any>): * {
@@ -31,7 +31,7 @@ export class Volume {
     input.forEach((i) => {
       result[i[0]] = i[1];
     });
-    return Volume.fromObject(result);
+    return this.fromObject(result);
   }
 
   get(value: string): number {
