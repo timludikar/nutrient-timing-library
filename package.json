@@ -1,6 +1,6 @@
 {
   "name": "nutrient-timing-library",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Nutrient timing library to calculate periodization and scheduling.",
   "engineStrict": true,
   "engines": {
@@ -33,11 +33,13 @@
     "test": "npm run test-only",
     "test-only": "jest --coverage",
     "test:watch": "jest --watch",
-    "build": "babel src/**/*.js -d dist",
+    "prepublish": "npm run build",
+    "build": "babel src -d dist",
     "build:watch": "babel --watch src/**/*.js -d dist"
   },
   "author": "Tim Ludikar <tim.ludikar@rangle.io>",
   "license": "MIT",
+  "main": "dist/index.js",
   "jest": {
     "testEnvironment": "node",
     "moduleFileExtensions": [
