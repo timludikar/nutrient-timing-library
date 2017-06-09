@@ -1,8 +1,7 @@
 /** @flow */
 
-import { bmr, macros } from '../services';
 import Calories from './calorie';
-import Nutrient, { Protein, Fat, Carbohydrate } from './nutrient';
+import Nutrient from './nutrient';
 
 const CM_TO_INCHES = 0.393701;
 const KG_TO_LBS = 2.20462;
@@ -36,20 +35,5 @@ export default class Profile {
 
   setFemale() {
     this.sex = 'f';
-  }
-
-  calculate() {
-    this.bmr = bmr.calculate({
-      height: this.height,
-      weight: this.weight,
-      age: this.age,
-      sex: this.sex,
-    });
-
-    this.calories = new Calories().calculate(this.bmr);
-    const protein = Protein.fromArray(macros.calculateProtein(this.weight));
-    const carbs = Carbohydrate.fromArray(macros.calculateCarbohydrate(this.weight));
-    const fats = Fat.fromArray(macros.calculateFat(carbs, protein, this.calories));
-    this.macros = new Nutrient(carbs, protein, fats);
   }
 }
