@@ -1,7 +1,6 @@
 /** @flow */
 
-import BMR from '../services/bmr';
-import { calculateCarbohydrate, calculateFat, calculateProtein } from '../services/macros';
+import { bmr, macros } from '../services';
 import Calories from './calorie';
 import Nutrient, { Protein, Fat, Carbohydrate } from './nutrient';
 
@@ -40,22 +39,17 @@ export default class Profile {
   }
 
   calculate() {
-    const bmr = BMR({
+    this.bmr = bmr.calculate({
       height: this.height,
       weight: this.weight,
       age: this.age,
       sex: this.sex,
     });
 
-    const calories = new Calories().calculate(bmr);
-
-    const protein = Protein.fromArray(calculateProtein(this.weight));
-    const carbs = Carbohydrate.fromArray(calculateCarbohydrate(this.weight));
-    const fats = Fat.fromArray(calculateFat(carbs, protein, calories));
-    const macros = new Nutrient(carbs, protein, fats);
-
-    this.bmr = bmr;
-    this.calories = calories;
-    this.macros = macros;
+    this.calories = new Calories().calculate(this.bmr);
+    const protein = Protein.fromArray(macros.calculateProtein(this.weight));
+    const carbs = Carbohydrate.fromArray(macros.calculateCarbohydrate(this.weight));
+    const fats = Fat.fromArray(macros.calculateFat(carbs, protein, this.calories));
+    this.macros = new Nutrient(carbs, protein, fats);
   }
 }

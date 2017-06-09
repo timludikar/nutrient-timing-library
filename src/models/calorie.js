@@ -1,7 +1,6 @@
 /** @flow */
 /* eslint no-restricted-syntax: [2, "class"] */
 
-
 const BASE_FACTOR = 1.2;
 const LIGHT_FACTOR = 1.375;
 const MEDIUM_FACTOR = 1.55;
@@ -23,7 +22,7 @@ export class Volume {
   }
 
   static fromObject(obj): * {
-    return new Volume(obj.base, obj.light, obj.medium, obj.heavy);
+    return new this(obj.base, obj.light, obj.medium, obj.heavy);
   }
 
   static fromArray(input: Array<any>): * {
@@ -31,7 +30,7 @@ export class Volume {
     input.forEach((i) => {
       result[i[0]] = i[1];
     });
-    return Volume.fromObject(result);
+    return this.fromObject(result);
   }
 
   get(value: string): number {

@@ -8,12 +8,17 @@ type BMRInit = {
   sex: string
 };
 
-export default (init: BMRInit) : number => {
-  let result = 0;
-  if (init.sex === 'm') {
-    result = ((init.weight * 10) + (init.height * 6.25) - (init.age * 5) + 5);
-  } else if (init.sex === 'f') {
-    result = ((init.weight * 10) + (init.height * 6.25) - (init.age * 5) - 10);
+const calculate = (init: BMRInit): number => {
+  switch (init.sex) {
+    case 'm':
+      return ((init.weight * 10) + (init.height * 6.25) - (init.age * 5) + 5);
+    case 'f':
+      return ((init.weight * 10) + (init.height * 6.25) - (init.age * 5) - 10);
+    default:
+      return 0;
   }
-  return result;
+};
+
+export default {
+  calculate,
 };

@@ -1,5 +1,4 @@
 /** @flow */
-/* eslint no-mixed-operators: ["error", {"groups": [["&", "|", "^", "~", "<<", ">>", ">>>"], ["&&", "||"]]}] */
 
 import { Volume } from './calorie';
 
@@ -15,14 +14,13 @@ export default class Nutrient {
   }
 }
 
-export class Protein extends Volume {
+export class Protein {
   low: number;
   high: number;
 
   constructor(low: number, high: number) {
-    super();
-    this.low = low || 0;
-    this.high = high || 0;
+    this.low = low;
+    this.high = high;
   }
 
   static fromArray(input: number[]): Protein {
