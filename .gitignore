@@ -9,9 +9,6 @@ node_modules/
 # Coverage
 coverage/
 
-# Transpiled files
-dist/
-
 # VS Code
 .vscode
 jsconfig.json
