@@ -1,8 +1,9 @@
 /** @flow */
 
 import BMR from '../services/bmr';
+import { calculateCarbohydrate, calculateFat, calculateProtein } from '../services/macros';
 import Calories from './calorie';
-import Nutrient from './nutrient';
+import Nutrient, { Protein, Fat, Carbohydrate } from './nutrient';
 
 const CM_TO_INCHES = 0.393701;
 const KG_TO_LBS = 2.20462;
@@ -48,7 +49,10 @@ export default class Profile {
 
     const calories = new Calories().calculate(bmr);
 
-    const macros = new Nutrient({ bmr: this.bmr, weight: this.weight * 2.2, calories });
+    const protein = Protein.fromArray(calculateProtein(this.weight));
+    const carbs = Carbohydrate.fromArray(calculateCarbohydrate(this.weight));
+    const fats = Fat.fromArray(calculateFat(carbs, protein, calories));
+    const macros = new Nutrient(carbs, protein, fats);
 
     this.bmr = bmr;
     this.calories = calories;

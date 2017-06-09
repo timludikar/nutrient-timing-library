@@ -7,12 +7,10 @@ const PERSONAL_DETAILS_FEMALE = { height: 187.96, weight: 97.72, age: 32, sex: '
 
 describe('BMR service', () => {
   it('can calculate BMR for males', () => {
-    // const bmr = BMR(PERSONAL_DETAILS);
     expect(BMR(PERSONAL_DETAILS)).toBeCloseTo(1997, 0);
   });
 
   it('can calculate BMR for females', () => {
-    // const bmr = BMR(PERSONAL_DETAILS_FEMALE);
     expect(BMR(PERSONAL_DETAILS_FEMALE)).toBeCloseTo(1982, 0);
   });
 });

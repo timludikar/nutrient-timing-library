@@ -9,7 +9,7 @@ const HEAVY_FACTOR = 1.725;
 
 type calorie = number;
 
-class Volume {
+export class Volume {
   base: calorie;
   light: calorie;
   medium: calorie;
@@ -50,7 +50,7 @@ class Volume {
   }
 
   toArray(): Array<any> {
-    return Object.values(this);
+    return Object.keys(this).map((key) => [key, this.get(key)]);
   }
 
   keys(): Array<string> {
