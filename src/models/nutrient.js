@@ -2,6 +2,11 @@
 
 import { Volume } from './calorie';
 
+type initProtein = {
+  low: number,
+  high: number
+};
+
 export default class Nutrient {
   protein: Protein;
   carbohydrate: Carbohydrate;
@@ -18,13 +23,13 @@ export class Protein {
   low: number;
   high: number;
 
-  constructor(low: number, high: number) {
-    this.low = low;
-    this.high = high;
+  constructor(init: initProtein) {
+    this.low = init.low;
+    this.high = init.high;
   }
 
   static fromArray(input: number[]): Protein {
-    return new this(input[0], input[1]);
+    return new this({ low: input[0], high: input[1] });
   }
 }
 
