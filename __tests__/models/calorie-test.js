@@ -4,7 +4,7 @@ import { Calories } from '../../src/models';
 
 describe('Calorie model', () => {
   it('initializes', () => {
-    const calories = new Calories();
+    const calories = new Calories({});
     expect(calories).toBeDefined();
   });
 

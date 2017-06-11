@@ -8,21 +8,29 @@ const HEAVY_FACTOR = 1.725;
 
 type calorie = number;
 
+type initVolume = {
+  base ?: calorie,
+  light ?: calorie,
+  medium ?: calorie,
+  heavy ?: calorie
+}
+
 export class Volume {
   base: calorie;
   light: calorie;
   medium: calorie;
   heavy: calorie;
 
-  constructor(base ?: calorie, light ?: calorie, medium ?: calorie, heavy ?: calorie) {
-    this.base = base || 0;
-    this.light = light || 0;
-    this.medium = medium || 0;
-    this.heavy = heavy || 0;
+  constructor(init ?: initVolume) {
+    const input = init !== undefined ? init : {};
+    this.base = input.base || 0;
+    this.light = input.light || 0;
+    this.medium = input.medium || 0;
+    this.heavy = input.heavy || 0;
   }
 
   static fromObject(obj): * {
-    return new this(obj.base, obj.light, obj.medium, obj.heavy);
+    return new this(obj);
   }
 
   static fromArray(input: Array<any>): * {
@@ -82,12 +90,13 @@ class Calories extends Volume {
     return this;
   }
 
-  update(base ?: calorie, light ?: calorie, medium ?: calorie, heavy ?: calorie): Calories {
-    const newBase = base || this.base;
-    const newLight = light || this.light;
-    const newMedium = medium || this.medium;
-    const newHeavy = heavy || this.heavy;
-    return new Calories(newBase, newLight, newMedium, newHeavy);
+  update(init ?: initVolume): Calories {
+    const input = init !== undefined ? init : {};
+    const newBase = input.base || this.base;
+    const newLight = input.light || this.light;
+    const newMedium = input.medium || this.medium;
+    const newHeavy = input.heavy || this.heavy;
+    return new Calories({ base: newBase, light: newLight, medium: newMedium, heavy: newHeavy });
   }
 }
 
