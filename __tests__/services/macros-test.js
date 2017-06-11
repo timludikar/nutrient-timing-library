@@ -26,7 +26,7 @@ describe('Macro service', () => {
   it('can calculate fat range', () => {
     const carbs = Carbohydrate.fromArray(macros.calculateCarbohydrate(PERSONAL_DETAILS.weight * 2.2));
     const protein = Protein.fromArray(macros.calculateProtein(PERSONAL_DETAILS.weight * 2.2));
-    const fat = Fat.fromArray(macros.calculateFat(carbs, protein, CALORIES));
+    const fat = Fat.fromArray(macros.calculateFat({ carbohydrate: carbs, protein, calories: CALORIES }));
 
     expect(fat.base).toBeCloseTo(142.05, 0);
     expect(fat.light).toBeCloseTo(133.10, 0);
