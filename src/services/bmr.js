@@ -1,6 +1,14 @@
 /** @flow */
 /* eslint no-mixed-operators: ["error", {"groups": [["&", "|", "^", "~", "<<", ">>", ">>>"], ["&&", "||"]]}] */
 
+/**
+ * BMR Object
+ * @typedef {Object} BMRInit 
+ * @property {number} height - Indicates a height in inches.
+ * @property {number} weight - Indicates a weight in lbs.
+ * @property {number} age - Indicates an age.
+ * @property {string} sex - Indicates a gender.
+ */
 type BMRInit = {
   height: number,
   weight: number,
@@ -8,6 +16,12 @@ type BMRInit = {
   sex: string
 };
 
+/**
+ * Calculate the BMR based on height, weight, age, and gender.
+ * 
+ * @param {BMRInit} init 
+ * @returns {number} 
+ */
 const calculate = (init: BMRInit): number => {
   switch (init.sex) {
     case 'm':

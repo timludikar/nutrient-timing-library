@@ -21,7 +21,8 @@
     "eslint-plugin-flowtype": "~2.31.0",
     "eslint-plugin-import": "~2.2.0",
     "flow-bin": "~0.44.2",
-    "jest": "~19.0.2"
+    "jest": "~19.0.2",
+    "jsdoc": "^3.4.3"
   },
   "scripts": {
     "clean": "rm -rf coverage dist tmp",
