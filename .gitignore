@@ -16,3 +16,8 @@ jsconfig.json
 # Misc
 .DS_Store
 tmp/
+
+#dist
+index.js
+services/
+models/
