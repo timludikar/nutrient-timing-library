@@ -17,7 +17,10 @@ jsconfig.json
 .DS_Store
 tmp/
 
+# Documentation
+docs/
+
 #dist
 index.js
-services/
-models/
+./services/
+./models/

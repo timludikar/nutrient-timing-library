@@ -8,7 +8,7 @@ const CARB_RANGE = [0.5, 1, 1.5, 2];
 
 /**
  * Macro Object
- * @typedef {Object} Macros 
+ * @typedef {Object} Macros
  * @property {Carbohydrate} carbohydrate Indicates a carbohydrate in grams.
  * @property {Protein} protein Indicates a protein in grams.
  * @property {Calories} calories Indicates calories based on training volume.
@@ -22,15 +22,15 @@ type Macros = {
 /**
  * Calculate protein macros using weight.
  * @function calculateProtein
- * @param {number} weight 
- * @returns {number[]} 
+ * @param {number} weight
+ * @returns {number[]}
  */
 export const calculateProtein = (weight: number): number[] => PROTEIN_RANGE.map((val) => weight * val);
 
 /**
  * Calculate carbohydrate macros using weight.
  * @function calculateCarbohydrate
- * @param {number} weight 
+ * @param {number} weight
  * @return Array<any>
  */
 export const calculateCarbohydrate = (weight: number): Array<any> =>
@@ -40,7 +40,7 @@ export const calculateCarbohydrate = (weight: number): Array<any> =>
  * Calculate fat macros using proteins, carbohydrates, and calories.
  * @function calculateFat
  * @param {Macros} macros
- * @return Array<any> 
+ * @return Array<any>
  */
 export const calculateFat = (macros: Macros): Array<any> =>
   ['base', 'light', 'medium', 'heavy'].map((key) =>
