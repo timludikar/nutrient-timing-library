@@ -1,0 +1,60 @@
+{
+  "coverage": "77.77%",
+  "expectCount": 63,
+  "actualCount": 49,
+  "files": {
+    "src/index.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        20,
+        28
+      ]
+    },
+    "src/models/calorie.js": {
+      "expectCount": 12,
+      "actualCount": 4,
+      "undocumentLines": [
+        7,
+        8,
+        9,
+        10,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    "src/models/nutrient.js": {
+      "expectCount": 12,
+      "actualCount": 12,
+      "undocumentLines": []
+    },
+    "src/models/profile.js": {
+      "expectCount": 18,
+      "actualCount": 16,
+      "undocumentLines": [
+        6,
+        7
+      ]
+    },
+    "src/models/volume.js": {
+      "expectCount": 13,
+      "actualCount": 13,
+      "undocumentLines": []
+    },
+    "src/services/bmr.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/services/macros.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        6,
+        7
+      ]
+    }
+  }
+}

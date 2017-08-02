@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/models/profile.js | nutrient-timing-library</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Nutrient timing library to calculate periodization and scheduling."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="nutrient-timing-library"><meta property="twitter:description" content="Nutrient timing library to calculate periodization and scheduling."></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Models">Models</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Services">Services</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#models">models</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/models/calorie.js~Calories.html">Calories</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/models/nutrient.js~Carbohydrate.html">Carbohydrate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/models/nutrient.js~Fat.html">Fat</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/models/nutrient.js~Nutrient.html">Nutrient</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/models/nutrient.js~Protein.html">Protein</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/models/profile.js~Profile.html">Profile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ProteinRange">ProteinRange</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-User">User</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Calorie">Calorie</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-TrainingVolume">TrainingVolume</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#services">services</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-calculateCarbohydrate">calculateCarbohydrate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-calculateFat">calculateFat</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-calculateProtein">calculateProtein</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Bmr">Bmr</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Macros">Macros</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/models/profile.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/** @flow */
+
+import Calories from &apos;./calorie&apos;;
+import Nutrient from &apos;./nutrient&apos;;
+
+const CM_TO_INCHES = 0.393701;
+const KG_TO_LBS = 2.20462;
+
+/**
+ * Profile Object
+ * @typedef {Object} User
+ * @property {string} firstName - Indicates a first name.
+ * @property {string} lastName - Indicates a last name.
+ * @property {number} height - Indicates a height in inches.
+ * @property {number} weight - Indicates a weight in lbs.
+ * @property {number} sex - Indicates a gender.
+ * @property {string} age - Indicates age.
+ */
+type User = {
+  firstName ?: string,
+  lastName ?: string,
+  height ?: number,
+  weight ?: number,
+  sex ?: string,
+  age ?: number,
+}
+
+/**
+ * Class representing a Profile.
+ *
+ * @export
+ * @class Profile
+ */
+export default class Profile {
+  firstName: string;
+  lastName: string;
+  height: number;
+  weight: number;
+  sex: string;
+  age: number;
+  bmr: number;
+  calories: Calories;
+  macros: Nutrient;
+
+  /**
+   * Creates an instance of Profile.
+   * @param {User} [init]
+   *
+   * @memberOf Profile
+   */
+  constructor(init ?: User) {
+    const input = init !== undefined ? init : {};
+    this.firstName = input.firstName || &apos;&apos;;
+    this.lastName = input.lastName || &apos;&apos;;
+    this.height = input.height || 0;
+    this.weight = input.weight || 0;
+    this.age = input.age || 0;
+    this.sex = input.sex || &apos;&apos;;
+  }
+
+  /**
+   * Add height to profile in centimeters.
+   *
+   * @param {number} height
+   *
+   * @memberOf Profile
+   */
+  addHeightInCM(height: number) {
+    this.height = height * CM_TO_INCHES;
+  }
+
+  /**
+   * Add height to profile in feet.
+   *
+   * @param {number} feet
+   * @param {number} inches
+   *
+   * @memberOf Profile
+   */
+  addHeightInFeet(feet: number, inches: number) {
+    this.height = (feet * 12) + inches;
+  }
+
+  /**
+   * Add weight to profile in KGs.
+   *
+   * @param {number} weight
+   *
+   * @memberOf Profile
+   */
+  addWeightInKg(weight: number) {
+    this.weight = weight * KG_TO_LBS;
+  }
+
+  /**
+   * Set gender of profile to male.
+   *
+   *
+   * @memberOf Profile
+   */
+  setMale() {
+    this.sex = &apos;m&apos;;
+  }
+
+  /**
+   * Set gender of profile to female.
+   *
+   *
+   * @memberOf Profile
+   */
+  setFemale() {
+    this.sex = &apos;f&apos;;
+  }
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.1)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
