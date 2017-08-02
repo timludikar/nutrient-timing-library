@@ -19,8 +19,6 @@ class Calories extends Volume {
    *
    * @param {number} bmr
    * @returns {Calories}
-   *
-   * @memberOf Calories
    */
   calculate(bmr: number): Calories {
     this.base = (BASE_FACTOR * bmr);
@@ -35,8 +33,6 @@ class Calories extends Volume {
    *
    * @param {number} factor
    * @returns {Calories}
-   *
-   * @memberOf Calories
    */
   adjustment(factor: number): Calories {
     this.base = this.base + factor;
@@ -49,13 +45,11 @@ class Calories extends Volume {
   /**
    * Update calories.
    *
-   * @param {TrainingVolume} [init]
+   * @param {TrainingVolume} [update]
    * @returns {Calories}
-   *
-   * @memberOf Calories
    */
-  update(init ?: TrainingVolume): Calories {
-    const input = init !== undefined ? init : {};
+  update(update ?: TrainingVolume): Calories {
+    const input = update !== undefined ? update : {};
     const newBase = input.base || this.base;
     const newLight = input.light || this.light;
     const newMedium = input.medium || this.medium;

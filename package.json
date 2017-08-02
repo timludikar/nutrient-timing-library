@@ -1,6 +1,6 @@
 {
   "name": "nutrient-timing-library",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Nutrient timing library to calculate periodization and scheduling.",
   "engineStrict": true,
   "engines": {
@@ -30,6 +30,7 @@
   "scripts": {
     "clean": "rm -rf coverage dist tmp docs models services index.js",
     "docs": "./node_modules/.bin/esdoc",
+    "docs:publish": "npm run docs && git subtree push --prefix docs origin gh-pages && rm -rf ./docs",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
     "postlint": "npm run typecheck",
@@ -44,7 +45,7 @@
   },
   "author": "Tim Ludikar <tim.ludikar@rangle.io>",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "index.js",
   "jest": {
     "testEnvironment": "node",
     "moduleFileExtensions": [
