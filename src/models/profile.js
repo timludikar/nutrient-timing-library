@@ -8,7 +8,7 @@ const KG_TO_LBS = 2.20462;
 
 /**
  * Profile Object
- * @typedef {Object} initProfile 
+ * @typedef {Object} User
  * @property {string} firstName - Indicates a first name.
  * @property {string} lastName - Indicates a last name.
  * @property {number} height - Indicates a height in inches.
@@ -16,7 +16,7 @@ const KG_TO_LBS = 2.20462;
  * @property {number} sex - Indicates a gender.
  * @property {string} age - Indicates age.
  */
-type initProfile = {
+type User = {
   firstName ?: string,
   lastName ?: string,
   height ?: number,
@@ -27,7 +27,7 @@ type initProfile = {
 
 /**
  * Class representing a Profile.
- * 
+ *
  * @export
  * @class Profile
  */
@@ -44,11 +44,11 @@ export default class Profile {
 
   /**
    * Creates an instance of Profile.
-   * @param {initProfile} [init] 
-   * 
+   * @param {User} [init]
+   *
    * @memberOf Profile
    */
-  constructor(init ?: initProfile) {
+  constructor(init ?: User) {
     const input = init !== undefined ? init : {};
     this.firstName = input.firstName || '';
     this.lastName = input.lastName || '';
@@ -60,9 +60,9 @@ export default class Profile {
 
   /**
    * Add height to profile in centimeters.
-   * 
-   * @param {number} height 
-   * 
+   *
+   * @param {number} height
+   *
    * @memberOf Profile
    */
   addHeightInCM(height: number) {
@@ -71,10 +71,10 @@ export default class Profile {
 
   /**
    * Add height to profile in feet.
-   * 
-   * @param {number} feet 
-   * @param {number} inches 
-   * 
+   *
+   * @param {number} feet
+   * @param {number} inches
+   *
    * @memberOf Profile
    */
   addHeightInFeet(feet: number, inches: number) {
@@ -83,9 +83,9 @@ export default class Profile {
 
   /**
    * Add weight to profile in KGs.
-   * 
-   * @param {number} weight 
-   * 
+   *
+   * @param {number} weight
+   *
    * @memberOf Profile
    */
   addWeightInKg(weight: number) {
@@ -94,8 +94,8 @@ export default class Profile {
 
   /**
    * Set gender of profile to male.
-   * 
-   * 
+   *
+   *
    * @memberOf Profile
    */
   setMale() {
@@ -104,8 +104,8 @@ export default class Profile {
 
   /**
    * Set gender of profile to female.
-   * 
-   * 
+   *
+   *
    * @memberOf Profile
    */
   setFemale() {
