@@ -36,7 +36,7 @@
     "postlint": "npm run typecheck",
     "typecheck": "flow check",
     "pretest": "npm run lint",
-    "preinstall": "npm run build",
+    "postinstall": "npm run build",
     "test": "npm run test-only",
     "test-only": "jest --coverage",
     "test:watch": "jest --watch",
