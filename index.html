@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">Home | nutrient-timing-library</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Nutrient timing library to calculate periodization and scheduling."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="nutrient-timing-library"><meta property="twitter:description" content="Nutrient timing library to calculate periodization and scheduling."></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Models">Models</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Services">Services</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#models">models</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/models/calorie.js~Calories.html">Calories</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/models/nutrient.js~Carbohydrate.html">Carbohydrate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/models/nutrient.js~Fat.html">Fat</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/models/nutrient.js~Nutrient.html">Nutrient</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/models/nutrient.js~Protein.html">Protein</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/models/profile.js~Profile.html">Profile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ProteinRange">ProteinRange</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-User">User</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Calorie">Calorie</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-TrainingVolume">TrainingVolume</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#services">services</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-calculateCarbohydrate">calculateCarbohydrate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-calculateFat">calculateFat</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-calculateProtein">calculateProtein</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Bmr">Bmr</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Macros">Macros</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><p><a href="https://david-dm.org/jsynowiec/node-flowtype-boilerplate?type=dev"><img src="https://david-dm.org/jsynowiec/node-flowtype-boilerplate/dev-status.svg?style=flat-square" alt="Dev dependencies"></a>
+<a href="https://nodejs.org/dist/latest-v6.x/docs/api/">![Node.js version][nodejs-badge]</a>
+<a href="https://docs.npmjs.com/">![NPM version][npm-badge]</a>
+<a href="https://github.com/yarnpkg/yarn">![Yarn version][yarn-badge]</a>
+<a href="https://travis-ci.org/jsynowiec/node-flowtype-boilerplate"><img src="https://travis-ci.org/jsynowiec/node-flowtype-boilerplate.svg?branch=master" alt="Build Status"></a></p>
+<p><a href="https://github.com/jsynowiec/node-flowtype-boilerplate/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="MIT License"></a>
+<a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"></a>
+<a href="http://bit.ly/donate-js"><img src="https://img.shields.io/badge/$-support-green.svg?style=flat-square" alt="Donate"></a></p>
+<p><a href="https://github.com/jsynowiec/node-flowtype-boilerplate/watchers"><img src="https://img.shields.io/github/watchers/jsynowiec/node-flowtype-boilerplate.svg?style=social" alt="Watch on GitHub"></a>
+<a href="https://github.com/jsynowiec/node-flowtype-boilerplate/stargazers"><img src="https://img.shields.io/github/stars/jsynowiec/node-flowtype-boilerplate.svg?style=social" alt="Star on GitHub"></a>
+<a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20Node.js%20ES6+%20@flowtype%20boilerplate%20https://github.com/jsynowiec/node-flowtype-boilerplate%20%F0%9F%91%8D"><img src="https://img.shields.io/twitter/url/https/jsynowiec/node-flowtype-boilerplate.svg?style=social" alt="Tweet"></a></p>
+<h1 id="node-flowtype-boilerplate">node-flowtype-boilerplate</h1><p>Minimalistic boilerplate to jump-start a <a href="https://nodejs.org/dist/latest-v6.x/docs/api/">Node.js</a> project in ES6 with <a href="https://flowtype.org/">Flow</a> type checking.</p>
+<p>Provides a basic template, batteries included:</p>
+<ul>
+<li>ES6 + babel,<ul>
+<li>Removes Flow type annotations,</li>
+<li>Transforms imports to lazy CommonJS requires,</li>
+<li>Transforms async/await to generators,</li>
+</ul>
+</li>
+<li><a href="http://eslint.org/">ESLint</a> with the <a href="https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base">airbnb-base</a> and <a href="https://www.npmjs.com/package/eslint-plugin-flowtype">flowtype</a> rules,</li>
+<li><a href="https://facebook.github.io/jest/">Jest</a> unit testing and coverage,</li>
+<li><a href="https://github.com/flowtype/flow-typed">Type definitions</a> for Jest,</li>
+<li><a href="#available-scripts">NPM scripts for common operations</a>,</li>
+<li><a href="https://github.com/jsynowiec/node-flowtype-boilerplate/blob/master/.editorconfig">.editorconfig</a> for consistent file format,</li>
+<li><a href="https://github.com/yarnpkg/yarn">Yarn</a> lockfile so only verified and up-to-date dependencies are installed.</li>
+</ul>
+<h2 id="quick-start">Quick start</h2><p>This project requires <a href="https://nodejs.org/dist/latest-v6.x/docs/api/">Node.js</a> 6.9 (LTS) or later (but should work with any 6.2 or newer release) and <a href="https://docs.npmjs.com/">NPM</a>, <a href="https://github.com/yarnpkg/yarn">Yarn</a> is optional but recommended. Make sure you have those installed. Then just type following commands:</p>
+<pre><code><code class="source-code prettyprint">git clone https://github.com/jsynowiec/node-flowtype-boilerplate
+cd node-flowtype-boilerplate
+yarn</code>
+</code></pre><p>or if you don&apos;t have yarn installed</p>
+<pre><code><code class="source-code prettyprint">npm install</code>
+</code></pre><h2 id="available-scripts">Available scripts</h2><p>Run using either <code>npm run &lt;script&gt;</code> or <code>yarn run &lt;script&gt;</code> comand.</p>
+<ul>
+<li><code>clean</code> - remove coverage data, Jest cache and transpiled files,</li>
+<li><code>lint</code> - lint source files and tests,</li>
+<li><code>typecheck</code> - check type annotations,</li>
+<li><code>test</code> - lint, typecheck and run tests with coverage,</li>
+<li><code>test-only</code> - run tests with coverage,</li>
+<li><code>test:watch</code> - interactive watch mode to automatically re-run tests, </li>
+<li><code>build</code> - compile source files,</li>
+<li><code>build:watch</code> - interactive watch mode, compile sources on change.</li>
+</ul>
+<h2 id="questions">Questions</h2><p>If you have any questions regarding this project:</p>
+<ul>
+<li>consult the <a href="https://github.com/jsynowiec/node-flowtype-boilerplate/wiki/FAQ">FAQ</a> wiki page first,</li>
+<li>search for <a href="https://github.com/jsynowiec/node-flowtype-boilerplate/issues?utf8=&#x2713;&amp;q=label%3Aquestion%20">issues marked as <em>question</em></a>,</li>
+<li>if none of the above is appropriate, <a href="https://github.com/jsynowiec/node-flowtype-boilerplate/issues/new">open an issue</a>.</li>
+</ul>
+<h2 id="alternative">Alternative</h2><p>As an alternative to Flow type checking, you can try my <a href="https://github.com/jsynowiec/node-typescript-boilerplate">Node.js TypeScript boilerplate</a>. It&apos;s basically the same but with TypeScript and TSLint.</p>
+<h2 id="license">License</h2><p>MIT License. See the <a href="https://github.com/jsynowiec/node-flowtype-boilerplate/blob/master/LICENSE">LICENSE</a> file.</p>
+<p>[nodejs-badge]: <a href="https://img.shields.io/badge/node-&gt;=%206.9.0-blue.svg?style=flat-square">https://img.shields.io/badge/node-&gt;=%206.9.0-blue.svg?style=flat-square</a></p>
+<p>[npm-badge]: <a href="https://img.shields.io/badge/npm-&gt;=%203.10.8-blue.svg?style=flat-square">https://img.shields.io/badge/npm-&gt;=%203.10.8-blue.svg?style=flat-square</a></p>
+<p>[yarn-badge]: <a href="https://img.shields.io/badge/yarn-&gt;=%200.19.0-blue.svg?style=flat-square">https://img.shields.io/badge/yarn-&gt;=%200.19.0-blue.svg?style=flat-square</a></p>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.1)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

@@ -1,0 +1,2658 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "/** @flow */\n/* eslint no-duplicate-imports: [\"error\", { \"includeExports\": true }]*/\n\nimport {\n    Profile,\n    Calories,\n    Nutrient,\n    Protein,\n    Carbohydrate,\n    Fat,\n} from './models';\n\nimport {\n    bmr,\n    macros,\n} from './services';\n\nexport { Profile };\n\nexport const Models = {\n  Calories,\n  Nutrient,\n  Protein,\n  Carbohydrate,\n  Fat,\n};\n\nexport const Services = {\n  bmr,\n  macros,\n};\n\nexport default {\n  Profile,\n  Models,\n  Services,\n};\n",
+    "static": true,
+    "longname": "/Users/timludikar/Projects/nutrient-timing-library/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "Models",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~Models",
+    "access": "public",
+    "export": true,
+    "importPath": "nutrient-timing-library",
+    "importStyle": "{Models}",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"Calories\": *, \"Nutrient\": *, \"Protein\": *, \"Carbohydrate\": *, \"Fat\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "Services",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~Services",
+    "access": "public",
+    "export": true,
+    "importPath": "nutrient-timing-library",
+    "importStyle": "{Services}",
+    "description": null,
+    "lineNumber": 28,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"bmr\": *, \"macros\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "file",
+    "name": "src/models/calorie.js",
+    "content": "/** @flow */\n/* eslint no-restricted-syntax: [2, \"class\"] */\n\nimport Volume from './volume';\nimport type { TrainingVolume } from './volume';\n\nconst BASE_FACTOR = 1.2;\nconst LIGHT_FACTOR = 1.375;\nconst MEDIUM_FACTOR = 1.55;\nconst HEAVY_FACTOR = 1.725;\n\n/**\n * Class representing Calories\n * @extends {Volume}\n */\nclass Calories extends Volume {\n  /**\n   * Calculates calories according to BMR.\n   *\n   * @param {number} bmr\n   * @returns {Calories}\n   */\n  calculate(bmr: number): Calories {\n    this.base = (BASE_FACTOR * bmr);\n    this.light = (LIGHT_FACTOR * bmr);\n    this.medium = (MEDIUM_FACTOR * bmr);\n    this.heavy = (HEAVY_FACTOR * bmr);\n    return this;\n  }\n\n  /**\n   * Calculate calories based on calorie adjustment.\n   *\n   * @param {number} factor\n   * @returns {Calories}\n   */\n  adjustment(factor: number): Calories {\n    this.base = this.base + factor;\n    this.light = this.light + factor;\n    this.medium = this.medium + factor;\n    this.heavy = this.heavy + factor;\n    return this;\n  }\n\n  /**\n   * Update calories.\n   *\n   * @param {TrainingVolume} [update]\n   * @returns {Calories}\n   */\n  update(update ?: TrainingVolume): Calories {\n    const input = update !== undefined ? update : {};\n    const newBase = input.base || this.base;\n    const newLight = input.light || this.light;\n    const newMedium = input.medium || this.medium;\n    const newHeavy = input.heavy || this.heavy;\n    return new Calories({ base: newBase, light: newLight, medium: newMedium, heavy: newHeavy });\n  }\n}\n\n\nexport default Calories;\n",
+    "static": true,
+    "longname": "/Users/timludikar/Projects/nutrient-timing-library/src/models/calorie.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 52,
+    "kind": "variable",
+    "name": "BASE_FACTOR",
+    "memberof": "src/models/calorie.js",
+    "static": true,
+    "longname": "src/models/calorie.js~BASE_FACTOR",
+    "access": "public",
+    "export": false,
+    "importPath": "nutrient-timing-library/models/calorie.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "name": "LIGHT_FACTOR",
+    "memberof": "src/models/calorie.js",
+    "static": true,
+    "longname": "src/models/calorie.js~LIGHT_FACTOR",
+    "access": "public",
+    "export": false,
+    "importPath": "nutrient-timing-library/models/calorie.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "variable",
+    "name": "MEDIUM_FACTOR",
+    "memberof": "src/models/calorie.js",
+    "static": true,
+    "longname": "src/models/calorie.js~MEDIUM_FACTOR",
+    "access": "public",
+    "export": false,
+    "importPath": "nutrient-timing-library/models/calorie.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 55,
+    "kind": "variable",
+    "name": "HEAVY_FACTOR",
+    "memberof": "src/models/calorie.js",
+    "static": true,
+    "longname": "src/models/calorie.js~HEAVY_FACTOR",
+    "access": "public",
+    "export": false,
+    "importPath": "nutrient-timing-library/models/calorie.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "class",
+    "name": "Calories",
+    "memberof": "src/models/calorie.js",
+    "static": true,
+    "longname": "src/models/calorie.js~Calories",
+    "access": "public",
+    "export": true,
+    "importPath": "nutrient-timing-library/models/calorie.js",
+    "importStyle": "Calories",
+    "description": "Class representing Calories",
+    "lineNumber": 16,
+    "interface": false,
+    "extends": [
+      "Volume"
+    ]
+  },
+  {
+    "__docId__": 57,
+    "kind": "method",
+    "name": "calculate",
+    "memberof": "src/models/calorie.js~Calories",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/models/calorie.js~Calories#calculate",
+    "access": "public",
+    "description": "Calculates calories according to BMR.  ",
+    "lineNumber": 23,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Calories}  "
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "bmr",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Calories"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "member",
+    "name": "base",
+    "memberof": "src/models/calorie.js~Calories",
+    "static": false,
+    "longname": "src/models/calorie.js~Calories#base",
+    "access": "public",
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "member",
+    "name": "light",
+    "memberof": "src/models/calorie.js~Calories",
+    "static": false,
+    "longname": "src/models/calorie.js~Calories#light",
+    "access": "public",
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "member",
+    "name": "medium",
+    "memberof": "src/models/calorie.js~Calories",
+    "static": false,
+    "longname": "src/models/calorie.js~Calories#medium",
+    "access": "public",
+    "description": null,
+    "lineNumber": 26,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "member",
+    "name": "heavy",
+    "memberof": "src/models/calorie.js~Calories",
+    "static": false,
+    "longname": "src/models/calorie.js~Calories#heavy",
+    "access": "public",
+    "description": null,
+    "lineNumber": 27,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "method",
+    "name": "adjustment",
+    "memberof": "src/models/calorie.js~Calories",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/models/calorie.js~Calories#adjustment",
+    "access": "public",
+    "description": "Calculate calories based on calorie adjustment.  ",
+    "lineNumber": 37,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Calories}  "
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "factor",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Calories"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 67,
+    "kind": "method",
+    "name": "update",
+    "memberof": "src/models/calorie.js~Calories",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/models/calorie.js~Calories#update",
+    "access": "public",
+    "description": "Update calories.  ",
+    "lineNumber": 51,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Calories}  "
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "TrainingVolume"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "update",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Calories"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "file",
+    "name": "src/models/index.js",
+    "content": "/** @flow */\n\nimport Calories from './calorie';\nimport Nutrient, { Protein, Carbohydrate, Fat } from './nutrient';\nimport Profile from './profile';\n\nmodule.exports = {\n  Calories,\n  Nutrient,\n  Protein,\n  Carbohydrate,\n  Fat,\n  Profile,\n};\n",
+    "static": true,
+    "longname": "/Users/timludikar/Projects/nutrient-timing-library/src/models/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 69,
+    "kind": "file",
+    "name": "src/models/nutrient.js",
+    "content": "/** @flow */\n\nimport Volume from './volume';\n\n/**\n * Protein Object\n * @typedef {Object} ProteinRange\n * @property {number} low - Indicates a low protein range.\n * @property {number} high - Indicates a high protein range.\n */\ntype ProteinRange = {\n  low: number,\n  high: number\n};\n\n/**\n * Class representing a Nutrient Volume\n *\n * @export\n * @class Nutrient\n */\nexport default class Nutrient {\n  protein: Protein;\n  carbohydrate: Carbohydrate;\n  fat: Fat\n\n  /**\n   * Creates an instance of Nutrient.\n   * @param {Carbohydrate} carbohydrate\n   * @param {Protein} protein\n   * @param {Fat} fat\n   *\n   * @memberOf Nutrient\n   */\n  constructor(carbohydrate: Carbohydrate, protein: Protein, fat: Fat) {\n    this.protein = protein;\n    this.carbohydrate = carbohydrate;\n    this.fat = fat;\n  }\n}\n\n/**\n * Class representing a Protein\n *\n * @export\n * @class Protein\n */\nexport class Protein {\n  low: number;\n  high: number;\n\n  /**\n   * Creates an instance of Protein.\n   * @param {ProteinRange} init\n   *\n   * @memberOf Protein\n   */\n  constructor(init: ProteinRange) {\n    this.low = init.low;\n    this.high = init.high;\n  }\n\n  /**\n   * Create Protein from Array.\n   *\n   * @static\n   * @param {number[]} input\n   * @returns {Protein}\n   *\n   * @memberOf Protein\n   */\n  static fromArray(input: number[]): Protein {\n    return new this({ low: input[0], high: input[1] });\n  }\n}\n\n/**\n * Class representing a Carbohydrate\n *\n * @export\n * @class Carbohydrate\n * @extends {Volume}\n */\nexport class Carbohydrate extends Volume {}\n\n/**\n * Class representing a Fat\n *\n * @export\n * @class Fat\n * @extends {Volume}\n */\nexport class Fat extends Volume {}\n",
+    "static": true,
+    "longname": "/Users/timludikar/Projects/nutrient-timing-library/src/models/nutrient.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 70,
+    "kind": "typedef",
+    "name": "ProteinRange",
+    "memberof": "src/models/nutrient.js",
+    "static": true,
+    "longname": "src/models/nutrient.js~ProteinRange",
+    "access": "public",
+    "description": "Protein Object",
+    "lineNumber": 11,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "low",
+        "description": "Indicates a low protein range."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "high",
+        "description": "Indicates a high protein range."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "ProteinRange"
+    }
+  },
+  {
+    "__docId__": 71,
+    "kind": "class",
+    "name": "Nutrient",
+    "memberof": "src/models/nutrient.js",
+    "static": true,
+    "longname": "src/models/nutrient.js~Nutrient",
+    "access": "public",
+    "export": true,
+    "importPath": "nutrient-timing-library/models/nutrient.js",
+    "importStyle": "Nutrient",
+    "description": "Class representing a Nutrient Volume",
+    "lineNumber": 22,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": "Nutrient"
+      }
+    ],
+    "interface": false
+  },
+  {
+    "__docId__": 72,
+    "kind": "member",
+    "name": "protein",
+    "memberof": "src/models/nutrient.js~Nutrient",
+    "static": false,
+    "longname": "src/models/nutrient.js~Nutrient#protein",
+    "access": "public",
+    "description": "",
+    "lineNumber": 23,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Protein"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 73,
+    "kind": "member",
+    "name": "carbohydrate",
+    "memberof": "src/models/nutrient.js~Nutrient",
+    "static": false,
+    "longname": "src/models/nutrient.js~Nutrient#carbohydrate",
+    "access": "public",
+    "description": "",
+    "lineNumber": 24,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Carbohydrate"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "member",
+    "name": "fat",
+    "memberof": "src/models/nutrient.js~Nutrient",
+    "static": false,
+    "longname": "src/models/nutrient.js~Nutrient#fat",
+    "access": "public",
+    "description": "",
+    "lineNumber": 25,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Fat"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 75,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/models/nutrient.js~Nutrient",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/models/nutrient.js~Nutrient#constructor",
+    "access": "public",
+    "description": "Creates an instance of Nutrient.",
+    "lineNumber": 35,
+    "unknown": [
+      {
+        "tagName": "@memberOf",
+        "tagValue": "Nutrient"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Carbohydrate"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "carbohydrate",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Protein"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "protein",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Fat"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "fat",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 79,
+    "kind": "class",
+    "name": "Protein",
+    "memberof": "src/models/nutrient.js",
+    "static": true,
+    "longname": "src/models/nutrient.js~Protein",
+    "access": "public",
+    "export": true,
+    "importPath": "nutrient-timing-library/models/nutrient.js",
+    "importStyle": "{Protein}",
+    "description": "Class representing a Protein",
+    "lineNumber": 48,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": "Protein"
+      }
+    ],
+    "interface": false
+  },
+  {
+    "__docId__": 80,
+    "kind": "member",
+    "name": "low",
+    "memberof": "src/models/nutrient.js~Protein",
+    "static": false,
+    "longname": "src/models/nutrient.js~Protein#low",
+    "access": "public",
+    "description": "",
+    "lineNumber": 49,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 81,
+    "kind": "member",
+    "name": "high",
+    "memberof": "src/models/nutrient.js~Protein",
+    "static": false,
+    "longname": "src/models/nutrient.js~Protein#high",
+    "access": "public",
+    "description": "",
+    "lineNumber": 50,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/models/nutrient.js~Protein",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/models/nutrient.js~Protein#constructor",
+    "access": "public",
+    "description": "Creates an instance of Protein.",
+    "lineNumber": 58,
+    "unknown": [
+      {
+        "tagName": "@memberOf",
+        "tagValue": "Protein"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "ProteinRange"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "init",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 85,
+    "kind": "method",
+    "name": "fromArray",
+    "memberof": "src/models/nutrient.js~Protein",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/models/nutrient.js~Protein.fromArray",
+    "access": "public",
+    "description": "Create Protein from Array.  ",
+    "lineNumber": 72,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Protein}  "
+      },
+      {
+        "tagName": "@memberOf",
+        "tagValue": "Protein  "
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "input",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Protein"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 86,
+    "kind": "class",
+    "name": "Carbohydrate",
+    "memberof": "src/models/nutrient.js",
+    "static": true,
+    "longname": "src/models/nutrient.js~Carbohydrate",
+    "access": "public",
+    "export": true,
+    "importPath": "nutrient-timing-library/models/nutrient.js",
+    "importStyle": "{Carbohydrate}",
+    "description": "Class representing a Carbohydrate",
+    "lineNumber": 84,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": "Carbohydrate"
+      }
+    ],
+    "interface": false,
+    "extends": [
+      "Volume"
+    ]
+  },
+  {
+    "__docId__": 87,
+    "kind": "class",
+    "name": "Fat",
+    "memberof": "src/models/nutrient.js",
+    "static": true,
+    "longname": "src/models/nutrient.js~Fat",
+    "access": "public",
+    "export": true,
+    "importPath": "nutrient-timing-library/models/nutrient.js",
+    "importStyle": "{Fat}",
+    "description": "Class representing a Fat",
+    "lineNumber": 93,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": "Fat"
+      }
+    ],
+    "interface": false,
+    "extends": [
+      "Volume"
+    ]
+  },
+  {
+    "__docId__": 88,
+    "kind": "file",
+    "name": "src/models/profile.js",
+    "content": "/** @flow */\n\nimport Calories from './calorie';\nimport Nutrient from './nutrient';\n\nconst CM_TO_INCHES = 0.393701;\nconst KG_TO_LBS = 2.20462;\n\n/**\n * Profile Object\n * @typedef {Object} User\n * @property {string} firstName - Indicates a first name.\n * @property {string} lastName - Indicates a last name.\n * @property {number} height - Indicates a height in inches.\n * @property {number} weight - Indicates a weight in lbs.\n * @property {number} sex - Indicates a gender.\n * @property {string} age - Indicates age.\n */\ntype User = {\n  firstName ?: string,\n  lastName ?: string,\n  height ?: number,\n  weight ?: number,\n  sex ?: string,\n  age ?: number,\n}\n\n/**\n * Class representing a Profile.\n *\n * @export\n * @class Profile\n */\nexport default class Profile {\n  firstName: string;\n  lastName: string;\n  height: number;\n  weight: number;\n  sex: string;\n  age: number;\n  bmr: number;\n  calories: Calories;\n  macros: Nutrient;\n\n  /**\n   * Creates an instance of Profile.\n   * @param {User} [init]\n   *\n   * @memberOf Profile\n   */\n  constructor(init ?: User) {\n    const input = init !== undefined ? init : {};\n    this.firstName = input.firstName || '';\n    this.lastName = input.lastName || '';\n    this.height = input.height || 0;\n    this.weight = input.weight || 0;\n    this.age = input.age || 0;\n    this.sex = input.sex || '';\n  }\n\n  /**\n   * Add height to profile in centimeters.\n   *\n   * @param {number} height\n   *\n   * @memberOf Profile\n   */\n  addHeightInCM(height: number) {\n    this.height = height * CM_TO_INCHES;\n  }\n\n  /**\n   * Add height to profile in feet.\n   *\n   * @param {number} feet\n   * @param {number} inches\n   *\n   * @memberOf Profile\n   */\n  addHeightInFeet(feet: number, inches: number) {\n    this.height = (feet * 12) + inches;\n  }\n\n  /**\n   * Add weight to profile in KGs.\n   *\n   * @param {number} weight\n   *\n   * @memberOf Profile\n   */\n  addWeightInKg(weight: number) {\n    this.weight = weight * KG_TO_LBS;\n  }\n\n  /**\n   * Set gender of profile to male.\n   *\n   *\n   * @memberOf Profile\n   */\n  setMale() {\n    this.sex = 'm';\n  }\n\n  /**\n   * Set gender of profile to female.\n   *\n   *\n   * @memberOf Profile\n   */\n  setFemale() {\n    this.sex = 'f';\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/timludikar/Projects/nutrient-timing-library/src/models/profile.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 89,
+    "kind": "variable",
+    "name": "CM_TO_INCHES",
+    "memberof": "src/models/profile.js",
+    "static": true,
+    "longname": "src/models/profile.js~CM_TO_INCHES",
+    "access": "public",
+    "export": false,
+    "importPath": "nutrient-timing-library/models/profile.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 90,
+    "kind": "variable",
+    "name": "KG_TO_LBS",
+    "memberof": "src/models/profile.js",
+    "static": true,
+    "longname": "src/models/profile.js~KG_TO_LBS",
+    "access": "public",
+    "export": false,
+    "importPath": "nutrient-timing-library/models/profile.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 91,
+    "kind": "typedef",
+    "name": "User",
+    "memberof": "src/models/profile.js",
+    "static": true,
+    "longname": "src/models/profile.js~User",
+    "access": "public",
+    "description": "Profile Object",
+    "lineNumber": 19,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "firstName",
+        "description": "Indicates a first name."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "lastName",
+        "description": "Indicates a last name."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "height",
+        "description": "Indicates a height in inches."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "weight",
+        "description": "Indicates a weight in lbs."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "sex",
+        "description": "Indicates a gender."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "age",
+        "description": "Indicates age."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "User"
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "class",
+    "name": "Profile",
+    "memberof": "src/models/profile.js",
+    "static": true,
+    "longname": "src/models/profile.js~Profile",
+    "access": "public",
+    "export": true,
+    "importPath": "nutrient-timing-library/models/profile.js",
+    "importStyle": "Profile",
+    "description": "Class representing a Profile.",
+    "lineNumber": 34,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": "Profile"
+      }
+    ],
+    "interface": false
+  },
+  {
+    "__docId__": 93,
+    "kind": "member",
+    "name": "firstName",
+    "memberof": "src/models/profile.js~Profile",
+    "static": false,
+    "longname": "src/models/profile.js~Profile#firstName",
+    "access": "public",
+    "description": "",
+    "lineNumber": 35,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 94,
+    "kind": "member",
+    "name": "lastName",
+    "memberof": "src/models/profile.js~Profile",
+    "static": false,
+    "longname": "src/models/profile.js~Profile#lastName",
+    "access": "public",
+    "description": "",
+    "lineNumber": 36,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 95,
+    "kind": "member",
+    "name": "height",
+    "memberof": "src/models/profile.js~Profile",
+    "static": false,
+    "longname": "src/models/profile.js~Profile#height",
+    "access": "public",
+    "description": "",
+    "lineNumber": 37,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 96,
+    "kind": "member",
+    "name": "weight",
+    "memberof": "src/models/profile.js~Profile",
+    "static": false,
+    "longname": "src/models/profile.js~Profile#weight",
+    "access": "public",
+    "description": "",
+    "lineNumber": 38,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 97,
+    "kind": "member",
+    "name": "sex",
+    "memberof": "src/models/profile.js~Profile",
+    "static": false,
+    "longname": "src/models/profile.js~Profile#sex",
+    "access": "public",
+    "description": "",
+    "lineNumber": 39,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 98,
+    "kind": "member",
+    "name": "age",
+    "memberof": "src/models/profile.js~Profile",
+    "static": false,
+    "longname": "src/models/profile.js~Profile#age",
+    "access": "public",
+    "description": "",
+    "lineNumber": 40,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 99,
+    "kind": "member",
+    "name": "bmr",
+    "memberof": "src/models/profile.js~Profile",
+    "static": false,
+    "longname": "src/models/profile.js~Profile#bmr",
+    "access": "public",
+    "description": "",
+    "lineNumber": 41,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 100,
+    "kind": "member",
+    "name": "calories",
+    "memberof": "src/models/profile.js~Profile",
+    "static": false,
+    "longname": "src/models/profile.js~Profile#calories",
+    "access": "public",
+    "description": "",
+    "lineNumber": 42,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Calories"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 101,
+    "kind": "member",
+    "name": "macros",
+    "memberof": "src/models/profile.js~Profile",
+    "static": false,
+    "longname": "src/models/profile.js~Profile#macros",
+    "access": "public",
+    "description": "",
+    "lineNumber": 43,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Nutrient"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 102,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/models/profile.js~Profile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/models/profile.js~Profile#constructor",
+    "access": "public",
+    "description": "Creates an instance of Profile.",
+    "lineNumber": 51,
+    "unknown": [
+      {
+        "tagName": "@memberOf",
+        "tagValue": "Profile"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "User"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "init",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 109,
+    "kind": "method",
+    "name": "addHeightInCM",
+    "memberof": "src/models/profile.js~Profile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/models/profile.js~Profile#addHeightInCM",
+    "access": "public",
+    "description": "Add height to profile in centimeters. ",
+    "lineNumber": 68,
+    "unknown": [
+      {
+        "tagName": "@memberOf",
+        "tagValue": "Profile "
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "height",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 111,
+    "kind": "method",
+    "name": "addHeightInFeet",
+    "memberof": "src/models/profile.js~Profile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/models/profile.js~Profile#addHeightInFeet",
+    "access": "public",
+    "description": "Add height to profile in feet. ",
+    "lineNumber": 80,
+    "unknown": [
+      {
+        "tagName": "@memberOf",
+        "tagValue": "Profile "
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "feet",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "inches",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 113,
+    "kind": "method",
+    "name": "addWeightInKg",
+    "memberof": "src/models/profile.js~Profile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/models/profile.js~Profile#addWeightInKg",
+    "access": "public",
+    "description": "Add weight to profile in KGs. ",
+    "lineNumber": 91,
+    "unknown": [
+      {
+        "tagName": "@memberOf",
+        "tagValue": "Profile "
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "weight",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 115,
+    "kind": "method",
+    "name": "setMale",
+    "memberof": "src/models/profile.js~Profile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/models/profile.js~Profile#setMale",
+    "access": "public",
+    "description": "Set gender of profile to male. ",
+    "lineNumber": 101,
+    "unknown": [
+      {
+        "tagName": "@memberOf",
+        "tagValue": "Profile "
+      }
+    ],
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 117,
+    "kind": "method",
+    "name": "setFemale",
+    "memberof": "src/models/profile.js~Profile",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/models/profile.js~Profile#setFemale",
+    "access": "public",
+    "description": "Set gender of profile to female. ",
+    "lineNumber": 111,
+    "unknown": [
+      {
+        "tagName": "@memberOf",
+        "tagValue": "Profile "
+      }
+    ],
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 119,
+    "kind": "file",
+    "name": "src/models/volume.js",
+    "content": "/** @flow */\n/* eslint no-restricted-syntax: [2, \"class\"] */\n\n/**\n * Calorie Object\n * @typedef {Object} Calorie\n * @property {number} value - a numerical value for a Calorie.\n */\ntype Calorie = number;\n\n/**\n * TrainingVolume Object\n * @typedef {Object} TrainingVolume\n * @property {Calorie} base - Indicates a base training volume.\n * @property {Calorie} light - Indicates a light training volume.\n * @property {Calorie} mediun - Indicates a medium training volume.\n * @property {Calorie} heavy - Indicates a heavy training volume.\n *\n */\nexport type TrainingVolume = {\n  base ?: Calorie,\n  light ?: Calorie,\n  medium ?: Calorie,\n  heavy ?: Calorie\n}\n\n/**\n * Class representing a Training Volume\n *\n * @private\n */\nexport default class Volume {\n  base: Calorie;\n  light: Calorie;\n  medium: Calorie;\n  heavy: Calorie;\n\n  /**\n   * @param  {TrainingVolume} init\n   * @returns Volume\n   */\n  constructor(init ?: TrainingVolume) {\n    const input = init !== undefined ? init : {};\n    this.base = input.base || 0;\n    this.light = input.light || 0;\n    this.medium = input.medium || 0;\n    this.heavy = input.heavy || 0;\n  }\n\n\n  /**\n   * Convert an generic Object into a Volume.\n   *\n   * @static\n   * @param {any} obj\n   * @returns @this\n   *\n   * @memberOf Volume\n   */\n  static fromObject(obj): * {\n    return new this(obj);\n  }\n\n\n  /**\n   * Convert an Array into a Volume\n   *\n   * @static\n   * @param {Array<any>} input\n   * @returns null\n   *\n   * @memberOf Volume\n   */\n  static fromArray(input: Array<any>): * {\n    const result = {};\n    input.forEach((i) => {\n      result[i[0]] = i[1];\n    });\n    return this.fromObject(result);\n  }\n\n\n  /**\n   * Get the Volume's value; \"base\", \"light\", \"medium\", \"heavy\".\n   *\n   * @param {string} value\n   * @returns {number}\n   *\n   * @memberOf Volume\n   */\n  get(value: string): number {\n    switch (value) {\n      case 'base':\n        return this.base;\n      case 'light':\n        return this.light;\n      case 'medium':\n        return this.medium;\n      case 'heavy':\n        return this.heavy;\n      default:\n        return 0;\n    }\n  }\n\n  /**\n   * Convert Volume to Array.\n   *\n   * @returns {Array<any>}\n   *\n   * @memberOf Volume\n   */\n  toArray(): Array<any> {\n    return Object.keys(this).map((key) => [key, this.get(key)]);\n  }\n\n  /**\n   * Returns Array of Volume key parameters.\n   *\n   * @returns {Array<string>}\n   *\n   * @memberOf Volume\n   */\n  keys(): Array<string> {\n    return Object.keys(this);\n  }\n\n  /**\n   * Returns Array of Volume values.\n   *\n   * @returns {Array<any>}\n   *\n   * @memberOf Volume\n   */\n  values(): Array<any> {\n    return Object.values(this);\n  }\n\n  /**\n   * Returns Array of Volume key: values.\n   *\n   * @returns {Array<any>}\n   *\n   * @memberOf Volume\n   */\n  entries(): Array<any> {\n    return Object.entries(this);\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/timludikar/Projects/nutrient-timing-library/src/models/volume.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 120,
+    "kind": "typedef",
+    "name": "Calorie",
+    "memberof": "src/models/volume.js",
+    "static": true,
+    "longname": "src/models/volume.js~Calorie",
+    "access": "public",
+    "description": "Calorie Object",
+    "lineNumber": 9,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "a numerical value for a Calorie."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "Calorie"
+    }
+  },
+  {
+    "__docId__": 121,
+    "kind": "typedef",
+    "name": "TrainingVolume",
+    "memberof": "src/models/volume.js",
+    "static": true,
+    "longname": "src/models/volume.js~TrainingVolume",
+    "access": "public",
+    "description": "TrainingVolume Object",
+    "lineNumber": 20,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "Calorie"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "base",
+        "description": "Indicates a base training volume."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Calorie"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "light",
+        "description": "Indicates a light training volume."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Calorie"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "mediun",
+        "description": "Indicates a medium training volume."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Calorie"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "heavy",
+        "description": "Indicates a heavy training volume."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "TrainingVolume"
+    }
+  },
+  {
+    "__docId__": 122,
+    "kind": "class",
+    "name": "Volume",
+    "memberof": "src/models/volume.js",
+    "static": true,
+    "longname": "src/models/volume.js~Volume",
+    "access": "private",
+    "export": true,
+    "importPath": "nutrient-timing-library/models/volume.js",
+    "importStyle": "Volume",
+    "description": "Class representing a Training Volume",
+    "lineNumber": 32,
+    "interface": false,
+    "ignore": true
+  },
+  {
+    "__docId__": 123,
+    "kind": "member",
+    "name": "base",
+    "memberof": "src/models/volume.js~Volume",
+    "static": false,
+    "longname": "src/models/volume.js~Volume#base",
+    "access": "public",
+    "description": "",
+    "lineNumber": 33,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Calorie"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 124,
+    "kind": "member",
+    "name": "light",
+    "memberof": "src/models/volume.js~Volume",
+    "static": false,
+    "longname": "src/models/volume.js~Volume#light",
+    "access": "public",
+    "description": "",
+    "lineNumber": 34,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Calorie"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 125,
+    "kind": "member",
+    "name": "medium",
+    "memberof": "src/models/volume.js~Volume",
+    "static": false,
+    "longname": "src/models/volume.js~Volume#medium",
+    "access": "public",
+    "description": "",
+    "lineNumber": 35,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Calorie"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 126,
+    "kind": "member",
+    "name": "heavy",
+    "memberof": "src/models/volume.js~Volume",
+    "static": false,
+    "longname": "src/models/volume.js~Volume#heavy",
+    "access": "public",
+    "description": "",
+    "lineNumber": 36,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Calorie"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 127,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/models/volume.js~Volume",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/models/volume.js~Volume#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 42,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "Volume"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "TrainingVolume"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "init",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "Volume"
+    }
+  },
+  {
+    "__docId__": 132,
+    "kind": "method",
+    "name": "fromObject",
+    "memberof": "src/models/volume.js~Volume",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/models/volume.js~Volume.fromObject",
+    "access": "public",
+    "description": "Convert an generic Object into a Volume.  ",
+    "lineNumber": 60,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{existentialtypeparam}   "
+      },
+      {
+        "tagName": "@this",
+        "tagValue": "\n\n  "
+      },
+      {
+        "tagName": "@memberOf",
+        "tagValue": "Volume  "
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "obj",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "existentialtypeparam"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 133,
+    "kind": "method",
+    "name": "fromArray",
+    "memberof": "src/models/volume.js~Volume",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/models/volume.js~Volume.fromArray",
+    "access": "public",
+    "description": "Convert an Array into a Volume  ",
+    "lineNumber": 74,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{existentialtypeparam} null  "
+      },
+      {
+        "tagName": "@memberOf",
+        "tagValue": "Volume  "
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Array<any>"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "input",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "existentialtypeparam"
+      ],
+      "spread": false,
+      "description": "null"
+    }
+  },
+  {
+    "__docId__": 134,
+    "kind": "method",
+    "name": "get",
+    "memberof": "src/models/volume.js~Volume",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/models/volume.js~Volume#get",
+    "access": "public",
+    "description": "Get the Volume's value; \"base\", \"light\", \"medium\", \"heavy\".  ",
+    "lineNumber": 91,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number}  "
+      },
+      {
+        "tagName": "@memberOf",
+        "tagValue": "Volume  "
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 135,
+    "kind": "method",
+    "name": "toArray",
+    "memberof": "src/models/volume.js~Volume",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/models/volume.js~Volume#toArray",
+    "access": "public",
+    "description": "Convert Volume to Array.  ",
+    "lineNumber": 113,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Array<any>}  "
+      },
+      {
+        "tagName": "@memberOf",
+        "tagValue": "Volume  "
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Array"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 136,
+    "kind": "method",
+    "name": "keys",
+    "memberof": "src/models/volume.js~Volume",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/models/volume.js~Volume#keys",
+    "access": "public",
+    "description": "Returns Array of Volume key parameters.  ",
+    "lineNumber": 124,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Array<string>}  "
+      },
+      {
+        "tagName": "@memberOf",
+        "tagValue": "Volume  "
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Array"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 137,
+    "kind": "method",
+    "name": "values",
+    "memberof": "src/models/volume.js~Volume",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/models/volume.js~Volume#values",
+    "access": "public",
+    "description": "Returns Array of Volume values.  ",
+    "lineNumber": 135,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Array<any>}  "
+      },
+      {
+        "tagName": "@memberOf",
+        "tagValue": "Volume  "
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Array"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 138,
+    "kind": "method",
+    "name": "entries",
+    "memberof": "src/models/volume.js~Volume",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/models/volume.js~Volume#entries",
+    "access": "public",
+    "description": "Returns Array of Volume key: values.  ",
+    "lineNumber": 146,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Array<any>}  "
+      },
+      {
+        "tagName": "@memberOf",
+        "tagValue": "Volume  "
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Array"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 139,
+    "kind": "file",
+    "name": "src/services/bmr.js",
+    "content": "/** @flow */\n/* eslint no-mixed-operators: [\"error\", {\"groups\": [[\"&\", \"|\", \"^\", \"~\", \"<<\", \">>\", \">>>\"], [\"&&\", \"||\"]]}] */\n\n/**\n * Bassal Metabolic Rate Object\n * @typedef {Object} Bmr\n * @property {number} height - Indicates a height in inches.\n * @property {number} weight - Indicates a weight in lbs.\n * @property {number} age - Indicates an age.\n * @property {string} sex - Indicates a gender.\n */\ntype Bmr = {\n  height: number,\n  weight: number,\n  age: number,\n  sex: string\n};\n\n/**\n * Calculate the BMR based on height, weight, age, and gender.\n *\n * @param {Bmr} init\n * @returns {number}\n */\nconst calculate = (init: Bmr): number => {\n  switch (init.sex) {\n    case 'm':\n      return ((init.weight * 10) + (init.height * 6.25) - (init.age * 5) + 5);\n    case 'f':\n      return ((init.weight * 10) + (init.height * 6.25) - (init.age * 5) - 10);\n    default:\n      return 0;\n  }\n};\n\nexport default {\n  calculate,\n};\n",
+    "static": true,
+    "longname": "/Users/timludikar/Projects/nutrient-timing-library/src/services/bmr.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 140,
+    "kind": "typedef",
+    "name": "Bmr",
+    "memberof": "src/services/bmr.js",
+    "static": true,
+    "longname": "src/services/bmr.js~Bmr",
+    "access": "public",
+    "description": "Bassal Metabolic Rate Object",
+    "lineNumber": 12,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "height",
+        "description": "Indicates a height in inches."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "weight",
+        "description": "Indicates a weight in lbs."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "age",
+        "description": "Indicates an age."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "sex",
+        "description": "Indicates a gender."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "Bmr"
+    }
+  },
+  {
+    "__docId__": 141,
+    "kind": "function",
+    "name": "calculate",
+    "memberof": "src/services/bmr.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/services/bmr.js~calculate",
+    "access": "public",
+    "export": false,
+    "importPath": "nutrient-timing-library/services/bmr.js",
+    "importStyle": null,
+    "description": "Calculate the BMR based on height, weight, age, and gender.",
+    "lineNumber": 25,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Bmr"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "init",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 142,
+    "kind": "file",
+    "name": "src/services/index.js",
+    "content": "/** @flow */\n\nimport bmr from './bmr';\nimport macros from './macros';\n\nmodule.exports = {\n  bmr,\n  macros,\n};\n",
+    "static": true,
+    "longname": "/Users/timludikar/Projects/nutrient-timing-library/src/services/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 143,
+    "kind": "file",
+    "name": "src/services/macros.js",
+    "content": "/** @flow */\n/* eslint no-mixed-operators: [\"error\", {\"groups\": [[\"&\", \"|\", \"^\", \"~\", \"<<\", \">>\", \">>>\"], [\"&&\", \"||\"]]}] */\n\nimport { Calories, Protein, Carbohydrate } from '../models';\n\nconst PROTEIN_RANGE = [0.8, 1];\nconst CARB_RANGE = [0.5, 1, 1.5, 2];\n\n/**\n * Macro Object\n * @typedef {Object} Macros\n * @property {Carbohydrate} carbohydrate Indicates a carbohydrate in grams.\n * @property {Protein} protein Indicates a protein in grams.\n * @property {Calories} calories Indicates calories based on training volume.\n */\ntype Macros = {\n  carbohydrate: Carbohydrate,\n  protein: Protein,\n  calories: Calories,\n}\n\n/**\n * Calculate protein macros using weight.\n * @function calculateProtein\n * @param {number} weight\n * @returns {number[]}\n */\nexport const calculateProtein = (weight: number): number[] => PROTEIN_RANGE.map((val) => weight * val);\n\n/**\n * Calculate carbohydrate macros using weight.\n * @function calculateCarbohydrate\n * @param {number} weight\n * @return Array<any>\n */\nexport const calculateCarbohydrate = (weight: number): Array<any> =>\n  ['base', 'light', 'medium', 'heavy'].map((key, i) => [key, (weight * CARB_RANGE[i])]);\n\n/**\n * Calculate fat macros using proteins, carbohydrates, and calories.\n * @function calculateFat\n * @param {Macros} macros\n * @return Array<any>\n */\nexport const calculateFat = (macros: Macros): Array<any> =>\n  ['base', 'light', 'medium', 'heavy'].map((key) =>\n    [key, (macros.calories.get(key) - (macros.carbohydrate.get(key) + macros.protein.low) * 4) / 9],\n  );\n\nexport default {\n  calculateProtein,\n  calculateCarbohydrate,\n  calculateFat,\n};\n",
+    "static": true,
+    "longname": "/Users/timludikar/Projects/nutrient-timing-library/src/services/macros.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 144,
+    "kind": "variable",
+    "name": "PROTEIN_RANGE",
+    "memberof": "src/services/macros.js",
+    "static": true,
+    "longname": "src/services/macros.js~PROTEIN_RANGE",
+    "access": "public",
+    "export": false,
+    "importPath": "nutrient-timing-library/services/macros.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number[]"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 145,
+    "kind": "variable",
+    "name": "CARB_RANGE",
+    "memberof": "src/services/macros.js",
+    "static": true,
+    "longname": "src/services/macros.js~CARB_RANGE",
+    "access": "public",
+    "export": false,
+    "importPath": "nutrient-timing-library/services/macros.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number[]"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 146,
+    "kind": "typedef",
+    "name": "Macros",
+    "memberof": "src/services/macros.js",
+    "static": true,
+    "longname": "src/services/macros.js~Macros",
+    "access": "public",
+    "description": "Macro Object",
+    "lineNumber": 16,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "Carbohydrate"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "carbohydrate",
+        "description": "Indicates a carbohydrate in grams."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Protein"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "protein",
+        "description": "Indicates a protein in grams."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Calories"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "calories",
+        "description": "Indicates calories based on training volume."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "Macros"
+    }
+  },
+  {
+    "__docId__": 147,
+    "kind": "function",
+    "name": "calculateProtein",
+    "memberof": "src/services/macros.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/services/macros.js~calculateProtein",
+    "access": "public",
+    "export": true,
+    "importPath": "nutrient-timing-library/services/macros.js",
+    "importStyle": "{calculateProtein}",
+    "description": "Calculate protein macros using weight.",
+    "lineNumber": 28,
+    "unknown": [
+      {
+        "tagName": "@function",
+        "tagValue": "calculateProtein"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{number[]}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "weight",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number[]"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 148,
+    "kind": "function",
+    "name": "calculateCarbohydrate",
+    "memberof": "src/services/macros.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/services/macros.js~calculateCarbohydrate",
+    "access": "public",
+    "export": true,
+    "importPath": "nutrient-timing-library/services/macros.js",
+    "importStyle": "{calculateCarbohydrate}",
+    "description": "Calculate carbohydrate macros using weight.",
+    "lineNumber": 36,
+    "unknown": [
+      {
+        "tagName": "@function",
+        "tagValue": "calculateCarbohydrate"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "weight",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "Array<any>"
+    }
+  },
+  {
+    "__docId__": 149,
+    "kind": "function",
+    "name": "calculateFat",
+    "memberof": "src/services/macros.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/services/macros.js~calculateFat",
+    "access": "public",
+    "export": true,
+    "importPath": "nutrient-timing-library/services/macros.js",
+    "importStyle": "{calculateFat}",
+    "description": "Calculate fat macros using proteins, carbohydrates, and calories.",
+    "lineNumber": 45,
+    "unknown": [
+      {
+        "tagName": "@function",
+        "tagValue": "calculateFat"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Macros"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "macros",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "Array<any>"
+    }
+  },
+  {
+    "kind": "index",
+    "content": "[![Dev dependencies][dependencies-badge]][dependencies]\n[![Node.js version][nodejs-badge]][nodejs]\n[![NPM version][npm-badge]][npm]\n[![Yarn version][yarn-badge]][yarn]\n[![Build Status][travis-badge]][travis-ci]\n\n[![MIT License][license-badge]][LICENSE]\n[![PRs Welcome][prs-badge]][prs]\n[![Donate][donate-badge]][donate]\n\n[![Watch on GitHub][github-watch-badge]][github-watch]\n[![Star on GitHub][github-star-badge]][github-star]\n[![Tweet][twitter-badge]][twitter]\n\n# node-flowtype-boilerplate\n\nMinimalistic boilerplate to jump-start a [Node.js][nodejs] project in ES6 with [Flow][flowtype] type checking.\n\nProvides a basic template, batteries included:\n\n+ ES6 + babel,\n  + Removes Flow type annotations,\n  + Transforms imports to lazy CommonJS requires,\n  + Transforms async/await to generators,\n+ [ESLint][eslint] with the [airbnb-base][airbnb-base] and [flowtype][eslint-flowtype] rules,\n+ [Jest][jest] unit testing and coverage,\n+ [Type definitions][flow-typed] for Jest,\n+ [NPM scripts for common operations](#available-scripts),\n+ [.editorconfig][editorconfig] for consistent file format,\n+ [Yarn][yarn] lockfile so only verified and up-to-date dependencies are installed.\n\n## Quick start\n\nThis project requires [Node.js][nodejs] 6.9 (LTS) or later (but should work with any 6.2 or newer release) and [NPM][npm], [Yarn][yarn] is optional but recommended. Make sure you have those installed. Then just type following commands:\n\n```\ngit clone https://github.com/jsynowiec/node-flowtype-boilerplate\ncd node-flowtype-boilerplate\nyarn\n```\n\nor if you don't have yarn installed\n\n```\nnpm install\n```\n\n## Available scripts\n\nRun using either `npm run <script>` or `yarn run <script>` comand.\n\n+ `clean` - remove coverage data, Jest cache and transpiled files,\n+ `lint` - lint source files and tests,\n+ `typecheck` - check type annotations,\n+ `test` - lint, typecheck and run tests with coverage,\n+ `test-only` - run tests with coverage,\n+ `test:watch` - interactive watch mode to automatically re-run tests, \n+ `build` - compile source files,\n+ `build:watch` - interactive watch mode, compile sources on change.\n\n## Questions\n\nIf you have any questions regarding this project:\n\n* consult the [FAQ][wiki-faq] wiki page first,\n* search for [issues marked as *question*][issues-question],\n* if none of the above is appropriate, [open an issue][new-issue].\n\n## Alternative\n\nAs an alternative to Flow type checking, you can try my [Node.js TypeScript boilerplate][ts-boilerplate]. It's basically the same but with TypeScript and TSLint.\n\n## License\nMIT License. See the [LICENSE](https://github.com/jsynowiec/node-flowtype-boilerplate/blob/master/LICENSE) file.\n\n[dependencies-badge]: https://david-dm.org/jsynowiec/node-flowtype-boilerplate/dev-status.svg?style=flat-square\n[dependencies]: https://david-dm.org/jsynowiec/node-flowtype-boilerplate?type=dev\n[nodejs-badge]: https://img.shields.io/badge/node->=%206.9.0-blue.svg?style=flat-square\n[nodejs]: https://nodejs.org/dist/latest-v6.x/docs/api/\n[npm-badge]: https://img.shields.io/badge/npm->=%203.10.8-blue.svg?style=flat-square\n[npm]: https://docs.npmjs.com/\n[yarn-badge]: https://img.shields.io/badge/yarn->=%200.19.0-blue.svg?style=flat-square\n[yarn]: https://yarnpkg.com\n[travis-badge]: https://travis-ci.org/jsynowiec/node-flowtype-boilerplate.svg?branch=master\n[travis-ci]: https://travis-ci.org/jsynowiec/node-flowtype-boilerplate\n[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square\n[license]: https://github.com/jsynowiec/node-flowtype-boilerplate/blob/master/LICENSE\n[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square\n[prs]: http://makeapullrequest.com\n[donate-badge]: https://img.shields.io/badge/$-support-green.svg?style=flat-square\n[donate]: http://bit.ly/donate-js\n[github-watch-badge]: https://img.shields.io/github/watchers/jsynowiec/node-flowtype-boilerplate.svg?style=social\n[github-watch]: https://github.com/jsynowiec/node-flowtype-boilerplate/watchers\n[github-star-badge]: https://img.shields.io/github/stars/jsynowiec/node-flowtype-boilerplate.svg?style=social\n[github-star]: https://github.com/jsynowiec/node-flowtype-boilerplate/stargazers\n[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20this%20Node.js%20ES6+%20@flowtype%20boilerplate%20https://github.com/jsynowiec/node-flowtype-boilerplate%20%F0%9F%91%8D\n[twitter-badge]: https://img.shields.io/twitter/url/https/jsynowiec/node-flowtype-boilerplate.svg?style=social\n[jest]: https://facebook.github.io/jest/\n\n[flowtype]: https://flowtype.org/\n[eslint]: http://eslint.org/\n[airbnb-base]: https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base\n[eslint-flowtype]: https://www.npmjs.com/package/eslint-plugin-flowtype\n[yarn]: https://github.com/yarnpkg/yarn\n[flow-typed]: https://github.com/flowtype/flow-typed\n[editorconfig]: https://github.com/jsynowiec/node-flowtype-boilerplate/blob/master/.editorconfig\n\n[ts-boilerplate]: https://github.com/jsynowiec/node-typescript-boilerplate\n\n[wiki-faq]: https://github.com/jsynowiec/node-flowtype-boilerplate/wiki/FAQ\n\n[new-issue]: https://github.com/jsynowiec/node-flowtype-boilerplate/issues/new\n[issues-question]: https://github.com/jsynowiec/node-flowtype-boilerplate/issues?utf8=✓&q=label%3Aquestion%20\n",
+    "longname": "/Users/timludikar/Projects/nutrient-timing-library/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"nutrient-timing-library\",\n  \"version\": \"1.0.2\",\n  \"description\": \"Nutrient timing library to calculate periodization and scheduling.\",\n  \"engineStrict\": true,\n  \"engines\": {\n    \"node\": \">=6.9\"\n  },\n  \"devDependencies\": {\n    \"babel-cli\": \"~6.24.1\",\n    \"babel-core\": \"~6.24.1\",\n    \"babel-eslint\": \"~7.2.2\",\n    \"babel-jest\": \"~19.0.0\",\n    \"babel-plugin-transform-async-to-generator\": \"~6.24.1\",\n    \"babel-plugin-transform-es2015-modules-commonjs\": \"~6.24.1\",\n    \"babel-plugin-transform-flow-strip-types\": \"~6.22.0\",\n    \"babel-plugin-transform-runtime\": \"~6.23.0\",\n    \"babel-preset-stage-3\": \"~6.24.1\",\n    \"esdoc\": \"^1.0.1\",\n    \"esdoc-flow-type-plugin\": \"^1.0.0\",\n    \"esdoc-importpath-plugin\": \"^1.0.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"~3.19.0\",\n    \"eslint-config-airbnb-base\": \"~11.1.3\",\n    \"eslint-plugin-flowtype\": \"~2.31.0\",\n    \"eslint-plugin-import\": \"~2.2.0\",\n    \"flow-bin\": \"~0.44.2\",\n    \"jest\": \"~19.0.2\"\n  },\n  \"scripts\": {\n    \"clean\": \"rm -rf coverage dist tmp docs models services index.js\",\n    \"docs\": \"./node_modules/.bin/esdoc\",\n    \"docs:publish\": \"npm run docs && git subtree push --prefix docs origin gh-pages && rm -rf ./docs\",\n    \"lint\": \"eslint .\",\n    \"lint-fix\": \"eslint . --fix\",\n    \"postlint\": \"npm run typecheck\",\n    \"typecheck\": \"flow check\",\n    \"pretest\": \"npm run lint\",\n    \"test\": \"npm run test-only\",\n    \"test-only\": \"jest --coverage\",\n    \"test:watch\": \"jest --watch\",\n    \"prepublish\": \"npm run build\",\n    \"build\": \"babel src -d ./\",\n    \"build:watch\": \"babel --watch src/**/*.js -d ./\"\n  },\n  \"author\": \"Tim Ludikar <tim.ludikar@rangle.io>\",\n  \"license\": \"MIT\",\n  \"main\": \"index.js\",\n  \"jest\": {\n    \"testEnvironment\": \"node\",\n    \"moduleFileExtensions\": [\n      \"js\"\n    ],\n    \"coverageDirectory\": \"coverage\",\n    \"collectCoverageFrom\": [\n      \"src/**/*.js\"\n    ]\n  },\n  \"dependencies\": {\n    \"babel-runtime\": \"~6.23.0\"\n  }\n}\n",
+    "longname": "/Users/timludikar/Projects/nutrient-timing-library/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
