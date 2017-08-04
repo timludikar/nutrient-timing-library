@@ -21,7 +21,7 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-  unit-test:
+  test:
     docker:
       - image: circleci/node:6.10.3
     steps:
@@ -39,10 +39,10 @@ workflows:
   build-and-test:
     jobs:
       - build
-      - unit-test:
-        requires:
-          - build
+      - test:
+          requires:
+           - build
       - documentation:
-        requires:
-          - build
-          - test
+         requires:
+            - build
+            - test
