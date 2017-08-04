@@ -25,6 +25,10 @@ npm run docs
 cd docs
 git init
 
+# show where we are on the machine
+pwd
+remote=$(git config remote.origin.url)
+
 # inside this git repo we'll pretend to be a new user
 git config user.name "GH Pages Bot"
 git config user.email "hello@ghbot.com"
@@ -38,7 +42,7 @@ git commit -m "Deploy ESDOCS to GitHub Pages"
 # repo's gh-pages branch. (All previous history on the gh-pages branch
 # will be lost, since we are overwriting it.) We redirect any output to
 # /dev/null to hide any sensitive credential data that might otherwise be exposed.
-git push --force --quiet $GIT_URL master:gh-pages > /dev/null 2>&1
+git push --force --quiet origin gh-pages > /dev/null 2>&1 > /dev/null 2>&1
 cd ..
 npm run clean
 
