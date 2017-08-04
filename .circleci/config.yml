@@ -48,6 +48,6 @@ workflows:
       - documentation:
         require:
           - build
-        filter:
+        filters:
           branches:
             only: master
