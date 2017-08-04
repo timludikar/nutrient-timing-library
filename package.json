@@ -41,8 +41,8 @@
     "test-only": "jest --coverage",
     "test:watch": "jest --watch",
     "prepublish": "npm run build",
-    "build": "babel src -d ./",
-    "build:watch": "babel --watch src/**/*.js -d ./"
+    "build": "./node_modules/babel-cli/bin/babel.js src -d ./",
+    "build:watch": "./node_modules/babel-cli/bin/babel.js --watch src/**/*.js -d ./"
   },
   "author": "Tim Ludikar <tim.ludikar@rangle.io>",
   "license": "MIT",
