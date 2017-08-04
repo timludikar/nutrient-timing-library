@@ -30,7 +30,7 @@
   "scripts": {
     "clean": "rm -rf coverage dist tmp docs models services index.js",
     "docs": "./node_modules/.bin/esdoc",
-    "docs:publish": "npm run docs && ./scripts/deploy-ghpages.sh",
+    "docs:publish": "npm run docs && ./scripts/deploy-ghpages.sh docs && npm run clean",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
     "postlint": "npm run typecheck",
