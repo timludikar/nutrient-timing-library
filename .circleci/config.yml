@@ -65,10 +65,16 @@ workflows:
           filters:
             branches:
               only: master
+      - hold:
+         type: approval
+         filters:
+            branches:
+              only: master
+         requires:
+           - build
       - deploy-production:
           requires:
-            - build
-          type: approval
+            - hold
           filters:
             branches:
               only: master
