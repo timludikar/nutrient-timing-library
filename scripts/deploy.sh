@@ -19,8 +19,6 @@ fi
 yarn run clean
 yarn run build
 
-npm version "$versionUpdate"
-
 # make a directory to put the production branch
 mkdir dist
 cd dist
@@ -46,11 +44,14 @@ fi
 cp -rf "../services/" services/
 cp -rf "../models/" models/
 cp -rf "../index.js" .
+cp -rf "../package.json" .
 
 # stage any changes and new files
 git add -A
 # now commit, ignoring branch production doesn't seem to work, so trying skip
 git commit --allow-empty -m "Deploy to Production [ci skip]"
+
+npm version "$versionUpdate"
 # and push, but send any output to /dev/null to hide anything sensitive
 git push --force --quiet origin production > /dev/null 2>&1
 
