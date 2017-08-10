@@ -1,0 +1,64 @@
+{
+  "name": "nutrient-timing-library",
+  "version": "2.1.0",
+  "description": "Nutrient timing library to calculate periodization and scheduling.",
+  "engineStrict": true,
+  "engines": {
+    "node": ">=6.9"
+  },
+  "devDependencies": {
+    "babel-cli": "~6.24.1",
+    "babel-core": "~6.24.1",
+    "babel-eslint": "~7.2.2",
+    "babel-jest": "~19.0.0",
+    "babel-plugin-transform-async-to-generator": "~6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "~6.24.1",
+    "babel-plugin-transform-flow-strip-types": "~6.22.0",
+    "babel-plugin-transform-runtime": "~6.23.0",
+    "babel-preset-stage-3": "~6.24.1",
+    "esdoc": "^1.0.1",
+    "esdoc-flow-type-plugin": "^1.0.0",
+    "esdoc-importpath-plugin": "^1.0.0",
+    "esdoc-standard-plugin": "^1.0.0",
+    "eslint": "~3.19.0",
+    "eslint-config-airbnb-base": "~11.1.3",
+    "eslint-plugin-flowtype": "~2.31.0",
+    "eslint-plugin-import": "~2.2.0",
+    "flow-bin": "~0.44.2",
+    "jest": "~19.0.2"
+  },
+  "scripts": {
+    "clean": "rm -rf coverage dist tmp docs models services index.js",
+    "docs": "./node_modules/.bin/esdoc",
+    "docs:publish": "npm run docs && ./scripts/deploy-ghpages.sh docs && npm run clean",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix",
+    "postlint": "npm run typecheck",
+    "postinstall": "npm run build",
+    "typecheck": "flow check",
+    "pretest": "npm run lint",
+    "test": "npm run test-only",
+    "test-only": "jest --coverage",
+    "test:watch": "jest --watch",
+    "prepublish": "npm run build",
+    "build": "babel src -d ./",
+    "build:watch": "babel --watch src/**/*.js -d ./",
+    "deploy": "./scripts/deploy.sh patch"
+  },
+  "author": "Tim Ludikar <tim.ludikar@rangle.io>",
+  "license": "MIT",
+  "main": "index.js",
+  "jest": {
+    "testEnvironment": "node",
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  },
+  "dependencies": {
+    "babel-runtime": "~6.23.0"
+  }
+}
