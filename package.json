@@ -1,6 +1,6 @@
 {
   "name": "nutrient-timing-library",
-  "version": "2.1.1",
+  "version": "2.1.0",
   "description": "Nutrient timing library to calculate periodization and scheduling.",
   "engineStrict": true,
   "engines": {
@@ -34,13 +34,11 @@
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
     "postlint": "npm run typecheck",
-    "postinstall": "npm run build",
     "typecheck": "flow check",
     "pretest": "npm run lint",
     "test": "npm run test-only",
     "test-only": "jest --coverage",
     "test:watch": "jest --watch",
-    "prepublish": "npm run build",
     "build": "babel src -d ./",
     "build:watch": "babel --watch src/**/*.js -d ./",
     "deploy": "./scripts/deploy.sh patch"
