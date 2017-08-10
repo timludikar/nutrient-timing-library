@@ -12,15 +12,14 @@ versionUpdate="$1"
 
 if [ ! "$versionUpdate" ]
 then
-    echo "Usage: $0 [ major | minor ]"
+    echo "Usage: $0 [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease | from-git]"
     exit 1
 fi
 
 yarn run clean
 yarn run build
 
-npm version minor
-
+npm version "$versionUpdate"
 
 # make a directory to put the production branch
 mkdir dist

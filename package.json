@@ -41,7 +41,8 @@
     "test:watch": "jest --watch",
     "prepublish": "npm run build",
     "build": "babel src -d ./",
-    "build:watch": "babel --watch src/**/*.js -d ./"
+    "build:watch": "babel --watch src/**/*.js -d ./",
+    "deploy": "./scripts/deploy.sh patch"
   },
   "author": "Tim Ludikar <tim.ludikar@rangle.io>",
   "license": "MIT",
